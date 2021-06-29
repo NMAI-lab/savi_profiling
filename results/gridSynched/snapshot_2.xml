@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tree type="Call Tree" threadSelection="All thread groups" threadStatus="Runnable" aggregationLevel="Methods">
+  <node leaf="false" class="java.util.concurrent.ThreadPoolExecutor$Worker" methodName="run" methodSignature="()V" time="136033" count="2" selfTime="14" lineNumber="-1" percent="68.7">
+    <node leaf="false" class="jason.environment.Environment$1" methodName="run" methodSignature="()V" time="133298" count="1" selfTime="43" lineNumber="-1" percent="67.3">
+      <node leaf="false" class="NavigatorGridWorld" methodName="executeAction" methodSignature="(Ljava/lang/String;Ljason/asSyntax/Structure;)Z" time="133255" count="1" selfTime="102" lineNumber="-1" percent="67.3">
+        <node leaf="false" class="NavigatorGridWorld" methodName="updatePercepts" methodSignature="()V" time="129520" count="1" selfTime="80" lineNumber="-1" percent="65.4">
+          <node leaf="false" class="jason.environment.Environment" methodName="addPercept" methodSignature="([Ljason/asSyntax/Literal;)V" time="101220" count="8" selfTime="15" lineNumber="-1" percent="51.1">
+            <node leaf="false" class="java.util.List" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="101181" count="8" selfTime="41" lineNumber="-1" percent="51.1">
+              <node leaf="false" class="jason.asSyntax.LiteralImpl" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="101140" count="28" selfTime="23" lineNumber="-1" percent="51.1">
+                <node leaf="false" class="jason.asSyntax.DefaultTerm" methodName="hashCode" methodSignature="()I" time="101117" count="56" selfTime="28444" lineNumber="-1" percent="51.1">
+                  <node leaf="true" class="java.lang.Integer" methodName="intValue" methodSignature="()I" time="72573" count="56" selfTime="72573" lineNumber="-1" percent="36.6"/>
+                  <node leaf="false" class="jason.asSyntax.LiteralImpl" methodName="calcHashCode" methodSignature="()I" time="97" count="8" selfTime="7" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="jason.asSyntax.Structure" methodName="calcHashCode" methodSignature="()I" time="87" count="8" selfTime="11" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="java.lang.Object" methodName="hashCode" methodSignature="()I" time="40" count="9" selfTime="7" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="jason.asSyntax.DefaultTerm" methodName="hashCode" methodSignature="()I" time="33" count="9" selfTime="10" lineNumber="-1" percent="0.0">
+                          <node leaf="false" class="jason.asSyntax.Atom" methodName="calcHashCode" methodSignature="()I" time="13" count="5" selfTime="3" lineNumber="-1" percent="0.0">
+                            <node leaf="false" class="jason.asSyntax.DefaultTerm" methodName="hashCode" methodSignature="()I" time="4" count="5" selfTime="1" lineNumber="-1" percent="0.0">
+                              <node leaf="true" class="java.lang.Integer" methodName="intValue" methodSignature="()I" time="3" count="5" selfTime="3" lineNumber="-1" percent="0.0"/>
+                            </node>
+                            <node leaf="true" class="jason.asSyntax.Atom" methodName="getFunctor" methodSignature="()Ljava/lang/String;" time="3" count="5" selfTime="3" lineNumber="-1" percent="0.0"/>
+                            <node leaf="true" class="java.lang.String" methodName="hashCode" methodSignature="()I" time="2" count="5" selfTime="2" lineNumber="-1" percent="0.0"/>
+                            <node leaf="true" class="jason.asSyntax.Atom" methodName="getNS" methodSignature="()Ljason/asSyntax/Atom;" time="1" count="5" selfTime="1" lineNumber="-1" percent="0.0"/>
+                          </node>
+                          <node leaf="true" class="java.lang.Integer" methodName="intValue" methodSignature="()I" time="4" count="9" selfTime="4" lineNumber="-1" percent="0.0"/>
+                          <node leaf="true" class="java.lang.Integer" methodName="valueOf" methodSignature="(I)Ljava/lang/Integer;" time="4" count="8" selfTime="4" lineNumber="-1" percent="0.0"/>
+                          <node leaf="true" class="jason.asSyntax.NumberTermImpl" methodName="calcHashCode" methodSignature="()I" time="2" count="3" selfTime="2" lineNumber="-1" percent="0.0"/>
+                        </node>
+                      </node>
+                      <node leaf="false" class="jason.asSyntax.Atom" methodName="calcHashCode" methodSignature="()I" time="20" count="8" selfTime="9" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="jason.asSyntax.DefaultTerm" methodName="hashCode" methodSignature="()I" time="4" count="8" selfTime="2" lineNumber="-1" percent="0.0">
+                          <node leaf="true" class="java.lang.Integer" methodName="intValue" methodSignature="()I" time="2" count="8" selfTime="2" lineNumber="-1" percent="0.0"/>
+                        </node>
+                        <node leaf="true" class="java.lang.String" methodName="hashCode" methodSignature="()I" time="4" count="8" selfTime="4" lineNumber="-1" percent="0.0"/>
+                        <node leaf="true" class="jason.asSyntax.Atom" methodName="getFunctor" methodSignature="()Ljava/lang/String;" time="3" count="8" selfTime="3" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="false" class="jason.asSyntax.Structure" methodName="getTerm" methodSignature="(I)Ljason/asSyntax/Term;" time="12" count="9" selfTime="6" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="java.util.List" methodName="get" methodSignature="(I)Ljava/lang/Object;" time="6" count="9" selfTime="6" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="false" class="jason.asSyntax.Structure" methodName="getArity" methodSignature="()I" time="4" count="8" selfTime="2" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="java.util.List" methodName="size" methodSignature="()I" time="2" count="8" selfTime="2" lineNumber="-1" percent="0.0"/>
+                      </node>
+                    </node>
+                    <node leaf="true" class="jason.asSyntax.LiteralImpl" methodName="negated" methodSignature="()Z" time="3" count="8" selfTime="3" lineNumber="-1" percent="0.0"/>
+                  </node>
+                  <node leaf="true" class="java.lang.Integer" methodName="valueOf" methodSignature="(I)Ljava/lang/Integer;" time="3" count="8" selfTime="3" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+            </node>
+            <node leaf="true" class="java.util.Set" methodName="clear" methodSignature="()V" time="13" count="8" selfTime="13" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.List" methodName="add" methodSignature="(Ljava/lang/Object;)Z" time="11" count="8" selfTime="11" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="jason.asSyntax.Literal" methodName="parseLiteral" methodSignature="(Ljava/lang/String;)Ljason/asSyntax/Literal;" time="24605" count="8" selfTime="30" lineNumber="-1" percent="12.4">
+            <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="literal" methodSignature="()Ljason/asSyntax/Literal;" time="23629" count="8" selfTime="52" lineNumber="-1" percent="11.9">
+              <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="jj_ntk_f" methodSignature="()I" time="22031" count="8" selfTime="19" lineNumber="-1" percent="11.1">
+                <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="getNextToken" methodSignature="()Ljason/asSyntax/parser/Token;" time="22012" count="8" selfTime="30" lineNumber="-1" percent="11.1">
+                  <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveStringLiteralDfa0_0" methodSignature="()I" time="21838" count="8" selfTime="25" lineNumber="-1" percent="11.0">
+                    <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveStringLiteralDfa1_0" methodSignature="(JJ)I" time="21727" count="4" selfTime="14" lineNumber="-1" percent="11.0">
+                      <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveStringLiteralDfa2_0" methodSignature="(JJJJ)I" time="21708" count="4" selfTime="21651" lineNumber="-1" percent="11.0">
+                        <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjStartNfa_0" methodSignature="(IJJ)I" time="57" count="4" selfTime="11" lineNumber="-1" percent="0.0">
+                          <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveNfa_0" methodSignature="(II)I" time="43" count="4" selfTime="16" lineNumber="-1" percent="0.0">
+                            <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjCheckNAddTwoStates" methodSignature="(II)V" time="17" count="12" selfTime="14" lineNumber="-1" percent="0.0">
+                              <node leaf="true" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjCheckNAdd" methodSignature="(I)V" time="3" count="24" selfTime="3" lineNumber="-1" percent="0.0"/>
+                            </node>
+                            <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="10" count="12" selfTime="6" lineNumber="-1" percent="0.0">
+                              <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="UpdateLineColumn" methodSignature="(C)V" time="4" count="12" selfTime="4" lineNumber="-1" percent="0.0"/>
+                            </node>
+                          </node>
+                          <node leaf="true" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjStopStringLiteralDfa_0" methodSignature="(IJJ)I" time="3" count="4" selfTime="3" lineNumber="-1" percent="0.0"/>
+                        </node>
+                      </node>
+                      <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="5" count="4" selfTime="4" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="UpdateLineColumn" methodSignature="(C)V" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      </node>
+                    </node>
+                    <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveNfa_0" methodSignature="(II)I" time="86" count="4" selfTime="33" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjCheckNAddTwoStates" methodSignature="(II)V" time="34" count="32" selfTime="22" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjCheckNAdd" methodSignature="(I)V" time="12" count="64" selfTime="12" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="19" count="32" selfTime="15" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="UpdateLineColumn" methodSignature="(C)V" time="4" count="32" selfTime="4" lineNumber="-1" percent="0.0"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjFillToken" methodSignature="()Ljason/asSyntax/parser/Token;" time="71" count="8" selfTime="35" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="GetImage" methodSignature="()Ljava/lang/String;" time="17" count="8" selfTime="10" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="java.lang.String" methodName="&lt;init&gt;" methodSignature="([CII)V" time="7" count="8" selfTime="7" lineNumber="-1" percent="0.0"/>
+                    </node>
+                    <node leaf="false" class="jason.asSyntax.parser.Token" methodName="newToken" methodSignature="(ILjava/lang/String;)Ljason/asSyntax/parser/Token;" time="14" count="8" selfTime="8" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="jason.asSyntax.parser.Token" methodName="&lt;init&gt;" methodSignature="(ILjava/lang/String;)V" time="6" count="8" selfTime="6" lineNumber="-1" percent="0.0"/>
+                    </node>
+                    <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getBeginLine" methodSignature="()I" time="2" count="8" selfTime="2" lineNumber="-1" percent="0.0"/>
+                    <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getEndLine" methodSignature="()I" time="2" count="8" selfTime="2" lineNumber="-1" percent="0.0"/>
+                    <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getBeginColumn" methodSignature="()I" time="1" count="8" selfTime="1" lineNumber="-1" percent="0.0"/>
+                  </node>
+                  <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="BeginToken" methodSignature="()C" time="67" count="8" selfTime="10" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="57" count="8" selfTime="13" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="FillBuff" methodSignature="()V" time="39" count="8" selfTime="10" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="java.io.Reader" methodName="read" methodSignature="([CII)I" time="29" count="8" selfTime="29" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="UpdateLineColumn" methodSignature="(C)V" time="5" count="8" selfTime="5" lineNumber="-1" percent="0.0"/>
+                    </node>
+                  </node>
+                  <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="backup" methodSignature="(I)V" time="6" count="16" selfTime="6" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="pred" methodSignature="()Ljason/asSyntax/Pred;" time="1158" count="8" selfTime="61" lineNumber="-1" percent="0.6">
+                <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="terms" methodSignature="()Ljava/util/List;" time="794" count="8" selfTime="31" lineNumber="-1" percent="0.4">
+                  <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="term" methodSignature="()Ljason/asSyntax/Term;" time="730" count="9" selfTime="10" lineNumber="-1" percent="0.4">
+                    <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="log_expr" methodSignature="()Ljava/lang/Object;" time="643" count="9" selfTime="6" lineNumber="-1" percent="0.3">
+                      <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="log_expr_trm" methodSignature="()Ljava/lang/Object;" time="637" count="9" selfTime="11" lineNumber="-1" percent="0.3">
+                        <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="log_expr_factor" methodSignature="()Ljava/lang/Object;" time="626" count="9" selfTime="6" lineNumber="-1" percent="0.3">
+                          <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="rel_expr" methodSignature="()Ljava/lang/Object;" time="432" count="9" selfTime="10" lineNumber="-1" percent="0.2">
+                            <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="arithm_expr" methodSignature="()Ljava/lang/Object;" time="422" count="9" selfTime="10" lineNumber="-1" percent="0.2">
+                              <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="arithm_expr_trm" methodSignature="()Ljava/lang/Object;" time="412" count="9" selfTime="7" lineNumber="-1" percent="0.2">
+                                <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="arithm_expr_factor" methodSignature="()Ljava/lang/Object;" time="405" count="9" selfTime="12" lineNumber="-1" percent="0.2">
+                                  <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="arithm_expr_simple" methodSignature="()Ljava/lang/Object;" time="363" count="9" selfTime="30" lineNumber="-1" percent="0.2">
+                                    <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="function" methodSignature="()Ljason/asSyntax/Term;" time="283" count="6" selfTime="9" lineNumber="-1" percent="0.1">
+                                      <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="literal" methodSignature="()Ljason/asSyntax/Literal;" time="231" count="6" selfTime="28" lineNumber="-1" percent="0.1">
+                                        <node leaf="false" class="jason.asSyntax.ASSyntax" methodName="isKeyword" methodSignature="(Ljason/asSyntax/Literal;)Z" time="56" count="5" selfTime="5" lineNumber="-1" percent="0.0">
+                                          <node leaf="false" class="jason.asSyntax.Literal" methodName="getPredicateIndicator" methodSignature="()Ljason/asSyntax/PredicateIndicator;" time="31" count="5" selfTime="8" lineNumber="-1" percent="0.0">
+                                            <node leaf="false" class="jason.asSyntax.PredicateIndicator" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;Ljava/lang/String;I)V" time="18" count="5" selfTime="5" lineNumber="-1" percent="0.0">
+                                              <node leaf="false" class="jason.asSyntax.PredicateIndicator" methodName="calcHash" methodSignature="()I" time="13" count="5" selfTime="5" lineNumber="-1" percent="0.0">
+                                                <node leaf="false" class="jason.asSyntax.DefaultTerm" methodName="hashCode" methodSignature="()I" time="5" count="5" selfTime="1" lineNumber="-1" percent="0.0">
+                                                  <node leaf="true" class="java.lang.Integer" methodName="intValue" methodSignature="()I" time="4" count="5" selfTime="4" lineNumber="-1" percent="0.0"/>
+                                                </node>
+                                                <node leaf="true" class="java.lang.String" methodName="hashCode" methodSignature="()I" time="3" count="5" selfTime="3" lineNumber="-1" percent="0.0"/>
+                                              </node>
+                                            </node>
+                                            <node leaf="true" class="jason.asSyntax.Atom" methodName="getNS" methodSignature="()Ljason/asSyntax/Atom;" time="3" count="5" selfTime="3" lineNumber="-1" percent="0.0"/>
+                                            <node leaf="true" class="jason.asSyntax.Atom" methodName="getFunctor" methodSignature="()Ljava/lang/String;" time="2" count="5" selfTime="2" lineNumber="-1" percent="0.0"/>
+                                          </node>
+                                          <node leaf="false" class="java.util.Set" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="20" count="5" selfTime="16" lineNumber="-1" percent="0.0">
+                                            <node leaf="true" class="jason.asSyntax.PredicateIndicator" methodName="hashCode" methodSignature="()I" time="4" count="5" selfTime="4" lineNumber="-1" percent="0.0"/>
+                                          </node>
+                                        </node>
+                                        <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="jj_2_4" methodSignature="(I)Z" time="55" count="5" selfTime="2" lineNumber="-1" percent="0.0">
+                                          <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="jj_3_4" methodSignature="()Z" time="50" count="5" selfTime="7" lineNumber="-1" percent="0.0">
+                                            <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="jj_scan_token" methodSignature="(I)Z" time="36" count="5" selfTime="2" lineNumber="-1" percent="0.0">
+                                              <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="getNextToken" methodSignature="()Ljason/asSyntax/parser/Token;" time="34" count="5" selfTime="7" lineNumber="-1" percent="0.0">
+                                                <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjFillToken" methodSignature="()Ljason/asSyntax/parser/Token;" time="16" count="5" selfTime="8" lineNumber="-1" percent="0.0">
+                                                  <node leaf="false" class="jason.asSyntax.parser.Token" methodName="newToken" methodSignature="(ILjava/lang/String;)Ljason/asSyntax/parser/Token;" time="5" count="5" selfTime="4" lineNumber="-1" percent="0.0">
+                                                    <node leaf="true" class="jason.asSyntax.parser.Token" methodName="&lt;init&gt;" methodSignature="(ILjava/lang/String;)V" time="1" count="5" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                                  </node>
+                                                  <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getBeginLine" methodSignature="()I" time="2" count="5" selfTime="2" lineNumber="-1" percent="0.0"/>
+                                                  <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getEndLine" methodSignature="()I" time="1" count="5" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                                </node>
+                                                <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveStringLiteralDfa0_0" methodSignature="()I" time="5" count="5" selfTime="2" lineNumber="-1" percent="0.0">
+                                                  <node leaf="true" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjStopAtPos" methodSignature="(II)I" time="3" count="5" selfTime="3" lineNumber="-1" percent="0.0"/>
+                                                </node>
+                                                <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="BeginToken" methodSignature="()C" time="4" count="5" selfTime="1" lineNumber="-1" percent="0.0">
+                                                  <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="3" count="5" selfTime="3" lineNumber="-1" percent="0.0"/>
+                                                </node>
+                                                <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="backup" methodSignature="(I)V" time="2" count="5" selfTime="2" lineNumber="-1" percent="0.0"/>
+                                              </node>
+                                            </node>
+                                            <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="jj_3R_17" methodSignature="()Z" time="7" count="5" selfTime="2" lineNumber="-1" percent="0.0">
+                                              <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="jj_3R_35" methodSignature="()Z" time="5" count="5" selfTime="2" lineNumber="-1" percent="0.0">
+                                                <node leaf="true" class="jason.asSyntax.parser.as2j" methodName="jj_scan_token" methodSignature="(I)Z" time="3" count="5" selfTime="3" lineNumber="-1" percent="0.0"/>
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node leaf="true" class="jason.asSyntax.parser.as2j" methodName="jj_save" methodSignature="(II)V" time="3" count="5" selfTime="3" lineNumber="-1" percent="0.0"/>
+                                        </node>
+                                        <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="pred" methodSignature="()Ljason/asSyntax/Pred;" time="35" count="5" selfTime="13" lineNumber="-1" percent="0.0">
+                                          <node leaf="false" class="jason.asSyntax.Pred" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="16" count="5" selfTime="3" lineNumber="-1" percent="0.0">
+                                            <node leaf="false" class="jason.asSyntax.Structure" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="13" count="5" selfTime="4" lineNumber="-1" percent="0.0">
+                                              <node leaf="false" class="jason.asSyntax.Structure" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;Ljava/lang/String;)V" time="9" count="5" selfTime="1" lineNumber="-1" percent="0.0">
+                                                <node leaf="false" class="jason.asSyntax.Atom" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;Ljava/lang/String;)V" time="8" count="5" selfTime="3" lineNumber="-1" percent="0.0">
+                                                  <node leaf="false" class="jason.asSyntax.Literal" methodName="&lt;init&gt;" methodSignature="()V" time="5" count="5" selfTime="4" lineNumber="-1" percent="0.0">
+                                                    <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="&lt;init&gt;" methodSignature="()V" time="1" count="5" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node leaf="true" class="jason.asSyntax.parser.as2j" methodName="jj_consume_token" methodSignature="(I)Ljason/asSyntax/parser/Token;" time="2" count="5" selfTime="2" lineNumber="-1" percent="0.0"/>
+                                          <node leaf="true" class="jason.asSyntax.parser.as2j" methodName="jj_ntk_f" methodSignature="()I" time="2" count="5" selfTime="2" lineNumber="-1" percent="0.0"/>
+                                          <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="setSrcInfo" methodSignature="(Ljason/asSyntax/SourceInfo;)V" time="1" count="5" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                          <node leaf="true" class="jason.asSyntax.SourceInfo" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;I)V" time="1" count="5" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                        </node>
+                                        <node leaf="false" class="jason.asSyntax.LiteralImpl" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;ZLjason/asSyntax/Literal;)V" time="28" count="5" selfTime="2" lineNumber="-1" percent="0.0">
+                                          <node leaf="false" class="jason.asSyntax.Pred" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;Ljason/asSyntax/Literal;)V" time="26" count="5" selfTime="6" lineNumber="-1" percent="0.0">
+                                            <node leaf="false" class="jason.asSyntax.Structure" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;Ljason/asSyntax/Literal;)V" time="18" count="5" selfTime="3" lineNumber="-1" percent="0.0">
+                                              <node leaf="false" class="jason.asSyntax.Atom" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;Ljason/asSyntax/Literal;)V" time="12" count="5" selfTime="5" lineNumber="-1" percent="0.0">
+                                                <node leaf="false" class="jason.asSyntax.Literal" methodName="&lt;init&gt;" methodSignature="()V" time="5" count="5" selfTime="4" lineNumber="-1" percent="0.0">
+                                                  <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="&lt;init&gt;" methodSignature="()V" time="1" count="5" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                                </node>
+                                                <node leaf="true" class="jason.asSyntax.Atom" methodName="getFunctor" methodSignature="()Ljava/lang/String;" time="2" count="5" selfTime="2" lineNumber="-1" percent="0.0"/>
+                                              </node>
+                                              <node leaf="true" class="jason.asSyntax.Structure" methodName="getArity" methodSignature="()I" time="3" count="5" selfTime="3" lineNumber="-1" percent="0.0"/>
+                                            </node>
+                                            <node leaf="true" class="jason.asSyntax.Pred" methodName="hasAnnot" methodSignature="()Z" time="2" count="5" selfTime="2" lineNumber="-1" percent="0.0"/>
+                                          </node>
+                                        </node>
+                                        <node leaf="true" class="java.lang.String" methodName="indexOf" methodSignature="(Ljava/lang/String;)I" time="13" count="5" selfTime="13" lineNumber="-1" percent="0.0"/>
+                                        <node leaf="false" class="jason.asSyntax.directives.NameSpace" methodName="map" methodSignature="(Ljason/asSyntax/Atom;)Ljason/asSyntax/Atom;" time="12" count="5" selfTime="2" lineNumber="-1" percent="0.0">
+                                          <node leaf="false" class="java.util.Map" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="10" count="5" selfTime="9" lineNumber="-1" percent="0.0">
+                                            <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="hashCode" methodSignature="()I" time="1" count="5" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                          </node>
+                                        </node>
+                                        <node leaf="true" class="jason.asSyntax.Atom" methodName="getFunctor" methodSignature="()Ljava/lang/String;" time="2" count="10" selfTime="2" lineNumber="-1" percent="0.0"/>
+                                        <node leaf="true" class="jason.asSyntax.parser.as2j" methodName="jj_consume_token" methodSignature="(I)Ljason/asSyntax/parser/Token;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                        <node leaf="true" class="java.lang.String" methodName="charAt" methodSignature="(I)C" time="1" count="5" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                      </node>
+                                      <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="getArithFunction" methodSignature="(Ljason/asSyntax/Literal;)Ljason/asSemantics/ArithFunction;" time="43" count="6" selfTime="24" lineNumber="-1" percent="0.0">
+                                        <node leaf="false" class="jason.asSyntax.directives.FunctionRegister" methodName="getFunction" methodSignature="(Ljava/lang/String;I)Ljason/asSemantics/ArithFunction;" time="19" count="6" selfTime="9" lineNumber="-1" percent="0.0">
+                                          <node leaf="true" class="java.util.Map" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="10" count="6" selfTime="10" lineNumber="-1" percent="0.0"/>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node leaf="false" class="jason.asSyntax.ASSyntax" methodName="parseNumber" methodSignature="(Ljava/lang/String;)Ljason/asSyntax/NumberTerm;" time="48" count="3" selfTime="9" lineNumber="-1" percent="0.0">
+                                      <node leaf="true" class="java.lang.Double" methodName="parseDouble" methodSignature="(Ljava/lang/String;)D" time="23" count="3" selfTime="23" lineNumber="-1" percent="0.0"/>
+                                      <node leaf="false" class="jason.asSyntax.NumberTermImpl" methodName="&lt;init&gt;" methodSignature="(D)V" time="16" count="3" selfTime="11" lineNumber="-1" percent="0.0">
+                                        <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="&lt;init&gt;" methodSignature="()V" time="5" count="3" selfTime="5" lineNumber="-1" percent="0.0"/>
+                                      </node>
+                                    </node>
+                                    <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="setSrcInfo" methodSignature="(Ljason/asSyntax/SourceInfo;)V" time="1" count="3" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                    <node leaf="true" class="jason.asSyntax.parser.as2j" methodName="jj_consume_token" methodSignature="(I)Ljason/asSyntax/parser/Token;" time="1" count="3" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                  </node>
+                                  <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="jj_ntk_f" methodSignature="()I" time="30" count="4" selfTime="2" lineNumber="-1" percent="0.0">
+                                    <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="getNextToken" methodSignature="()Ljason/asSyntax/parser/Token;" time="28" count="4" selfTime="2" lineNumber="-1" percent="0.0">
+                                      <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjFillToken" methodSignature="()Ljason/asSyntax/parser/Token;" time="14" count="4" selfTime="6" lineNumber="-1" percent="0.0">
+                                        <node leaf="true" class="jason.asSyntax.parser.Token" methodName="newToken" methodSignature="(ILjava/lang/String;)Ljason/asSyntax/parser/Token;" time="4" count="4" selfTime="4" lineNumber="-1" percent="0.0"/>
+                                        <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getEndColumn" methodSignature="()I" time="2" count="4" selfTime="2" lineNumber="-1" percent="0.0"/>
+                                        <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getBeginLine" methodSignature="()I" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                        <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getEndLine" methodSignature="()I" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                      </node>
+                                      <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="BeginToken" methodSignature="()C" time="5" count="4" selfTime="2" lineNumber="-1" percent="0.0">
+                                        <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="3" count="4" selfTime="3" lineNumber="-1" percent="0.0"/>
+                                      </node>
+                                      <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveStringLiteralDfa0_0" methodSignature="()I" time="4" count="4" selfTime="3" lineNumber="-1" percent="0.0">
+                                        <node leaf="true" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjStopAtPos" methodSignature="(II)I" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                      </node>
+                                      <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="backup" methodSignature="(I)V" time="3" count="4" selfTime="3" lineNumber="-1" percent="0.0"/>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="jj_ntk_f" methodSignature="()I" time="188" count="9" selfTime="10" lineNumber="-1" percent="0.1">
+                            <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="getNextToken" methodSignature="()Ljason/asSyntax/parser/Token;" time="178" count="9" selfTime="19" lineNumber="-1" percent="0.1">
+                              <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveStringLiteralDfa0_0" methodSignature="()I" time="101" count="9" selfTime="6" lineNumber="-1" percent="0.1">
+                                <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveNfa_0" methodSignature="(II)I" time="61" count="7" selfTime="18" lineNumber="-1" percent="0.0">
+                                  <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjCheckNAddTwoStates" methodSignature="(II)V" time="18" count="16" selfTime="13" lineNumber="-1" percent="0.0">
+                                    <node leaf="true" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjCheckNAdd" methodSignature="(I)V" time="5" count="32" selfTime="5" lineNumber="-1" percent="0.0"/>
+                                  </node>
+                                  <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="15" count="19" selfTime="8" lineNumber="-1" percent="0.0">
+                                    <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="UpdateLineColumn" methodSignature="(C)V" time="7" count="19" selfTime="7" lineNumber="-1" percent="0.0"/>
+                                  </node>
+                                  <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjCheckNAddStates" methodSignature="(II)V" time="10" count="3" selfTime="8" lineNumber="-1" percent="0.0">
+                                    <node leaf="true" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjCheckNAdd" methodSignature="(I)V" time="2" count="15" selfTime="2" lineNumber="-1" percent="0.0"/>
+                                  </node>
+                                </node>
+                                <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveStringLiteralDfa1_0" methodSignature="(JJ)I" time="34" count="2" selfTime="2" lineNumber="-1" percent="0.0">
+                                  <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveStringLiteralDfa2_0" methodSignature="(JJJJ)I" time="30" count="2" selfTime="8" lineNumber="-1" percent="0.0">
+                                    <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveStringLiteralDfa3_0" methodSignature="(JJ)I" time="11" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                                      <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveStringLiteralDfa4_0" methodSignature="(JJ)I" time="7" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                                        <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjStartNfaWithStates_0" methodSignature="(III)I" time="3" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                                          <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                          <node leaf="true" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveNfa_0" methodSignature="(II)I" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                        </node>
+                                        <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                      </node>
+                                      <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                    </node>
+                                    <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjStartNfa_0" methodSignature="(IJJ)I" time="9" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                                      <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveNfa_0" methodSignature="(II)I" time="8" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                                        <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="3" count="3" selfTime="3" lineNumber="-1" percent="0.0"/>
+                                        <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjCheckNAddTwoStates" methodSignature="(II)V" time="3" count="3" selfTime="2" lineNumber="-1" percent="0.0">
+                                          <node leaf="true" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjCheckNAdd" methodSignature="(I)V" time="1" count="6" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                        </node>
+                                      </node>
+                                      <node leaf="true" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjStopStringLiteralDfa_0" methodSignature="(IJJ)I" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                    </node>
+                                    <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                                  </node>
+                                  <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="2" count="2" selfTime="1" lineNumber="-1" percent="0.0">
+                                    <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="UpdateLineColumn" methodSignature="(C)V" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+                                  </node>
+                                </node>
+                              </node>
+                              <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjFillToken" methodSignature="()Ljason/asSyntax/parser/Token;" time="40" count="9" selfTime="17" lineNumber="-1" percent="0.0">
+                                <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="GetImage" methodSignature="()Ljava/lang/String;" time="9" count="8" selfTime="5" lineNumber="-1" percent="0.0">
+                                  <node leaf="true" class="java.lang.String" methodName="&lt;init&gt;" methodSignature="([CII)V" time="4" count="8" selfTime="4" lineNumber="-1" percent="0.0"/>
+                                </node>
+                                <node leaf="false" class="jason.asSyntax.parser.Token" methodName="newToken" methodSignature="(ILjava/lang/String;)Ljason/asSyntax/parser/Token;" time="8" count="9" selfTime="3" lineNumber="-1" percent="0.0">
+                                  <node leaf="true" class="jason.asSyntax.parser.Token" methodName="&lt;init&gt;" methodSignature="(ILjava/lang/String;)V" time="5" count="9" selfTime="5" lineNumber="-1" percent="0.0"/>
+                                </node>
+                                <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getBeginLine" methodSignature="()I" time="3" count="9" selfTime="3" lineNumber="-1" percent="0.0"/>
+                                <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getEndColumn" methodSignature="()I" time="2" count="9" selfTime="2" lineNumber="-1" percent="0.0"/>
+                                <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getBeginColumn" methodSignature="()I" time="1" count="9" selfTime="1" lineNumber="-1" percent="0.0"/>
+                              </node>
+                              <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="BeginToken" methodSignature="()C" time="14" count="9" selfTime="3" lineNumber="-1" percent="0.0">
+                                <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="11" count="9" selfTime="8" lineNumber="-1" percent="0.0">
+                                  <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="UpdateLineColumn" methodSignature="(C)V" time="3" count="9" selfTime="3" lineNumber="-1" percent="0.0"/>
+                                </node>
+                              </node>
+                              <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="backup" methodSignature="(I)V" time="4" count="18" selfTime="4" lineNumber="-1" percent="0.0"/>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="changeToAtom" methodSignature="(Ljava/lang/Object;)Ljason/asSyntax/Term;" time="77" count="9" selfTime="29" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="jason.asSyntax.LiteralImpl" methodName="isAtom" methodSignature="()Z" time="24" count="5" selfTime="7" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="jason.asSyntax.Pred" methodName="isAtom" methodSignature="()Z" time="16" count="5" selfTime="4" lineNumber="-1" percent="0.0">
+                          <node leaf="false" class="jason.asSyntax.Structure" methodName="isAtom" methodSignature="()Z" time="10" count="5" selfTime="5" lineNumber="-1" percent="0.0">
+                            <node leaf="true" class="jason.asSyntax.Structure" methodName="hasTerm" methodSignature="()Z" time="5" count="5" selfTime="5" lineNumber="-1" percent="0.0"/>
+                          </node>
+                          <node leaf="true" class="jason.asSyntax.Pred" methodName="hasAnnot" methodSignature="()Z" time="2" count="5" selfTime="2" lineNumber="-1" percent="0.0"/>
+                        </node>
+                        <node leaf="true" class="jason.asSyntax.LiteralImpl" methodName="negated" methodSignature="()Z" time="1" count="5" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="false" class="jason.asSyntax.Atom" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Literal;)V" time="16" count="5" selfTime="8" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="jason.asSyntax.Atom" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;Ljason/asSyntax/Literal;)V" time="7" count="5" selfTime="1" lineNumber="-1" percent="0.0">
+                          <node leaf="false" class="jason.asSyntax.Literal" methodName="&lt;init&gt;" methodSignature="()V" time="4" count="5" selfTime="2" lineNumber="-1" percent="0.0">
+                            <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="5" selfTime="2" lineNumber="-1" percent="0.0"/>
+                          </node>
+                          <node leaf="true" class="jason.asSyntax.Atom" methodName="getFunctor" methodSignature="()Ljava/lang/String;" time="2" count="5" selfTime="2" lineNumber="-1" percent="0.0"/>
+                        </node>
+                        <node leaf="true" class="jason.asSyntax.Atom" methodName="getNS" methodSignature="()Ljason/asSyntax/Atom;" time="1" count="5" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="5" count="10" selfTime="5" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="jason.asSyntax.Atom" methodName="getFunctor" methodSignature="()Ljava/lang/String;" time="2" count="10" selfTime="2" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="isAtom" methodSignature="()Z" time="1" count="3" selfTime="1" lineNumber="-1" percent="0.0"/>
+                    </node>
+                  </node>
+                  <node leaf="true" class="java.util.ArrayList" methodName="trimToSize" methodSignature="()V" time="19" count="8" selfTime="19" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.util.ArrayList" methodName="add" methodSignature="(Ljava/lang/Object;)Z" time="8" count="9" selfTime="8" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.util.ArrayList" methodName="&lt;init&gt;" methodSignature="()V" time="5" count="8" selfTime="5" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="jason.asSyntax.parser.as2j" methodName="jj_consume_token" methodSignature="(I)Ljason/asSyntax/parser/Token;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                </node>
+                <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="jj_ntk_f" methodSignature="()I" time="226" count="16" selfTime="9" lineNumber="-1" percent="0.1">
+                  <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="getNextToken" methodSignature="()Ljason/asSyntax/parser/Token;" time="217" count="8" selfTime="11" lineNumber="-1" percent="0.1">
+                    <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="BeginToken" methodSignature="()C" time="169" count="8" selfTime="5" lineNumber="-1" percent="0.1">
+                      <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="164" count="8" selfTime="12" lineNumber="-1" percent="0.1">
+                        <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="FillBuff" methodSignature="()V" time="152" count="8" selfTime="93" lineNumber="-1" percent="0.1">
+                          <node leaf="true" class="java.io.IOException" methodName="&lt;init&gt;" methodSignature="()V" time="40" count="8" selfTime="40" lineNumber="-1" percent="0.0"/>
+                          <node leaf="true" class="java.io.Reader" methodName="read" methodSignature="([CII)I" time="9" count="8" selfTime="9" lineNumber="-1" percent="0.0"/>
+                          <node leaf="true" class="java.io.Reader" methodName="close" methodSignature="()V" time="6" count="8" selfTime="6" lineNumber="-1" percent="0.0"/>
+                          <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="backup" methodSignature="(I)V" time="4" count="8" selfTime="4" lineNumber="-1" percent="0.0"/>
+                        </node>
+                      </node>
+                    </node>
+                    <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjFillToken" methodSignature="()Ljason/asSyntax/parser/Token;" time="37" count="8" selfTime="17" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getBeginLine" methodSignature="()I" time="10" count="8" selfTime="10" lineNumber="-1" percent="0.0"/>
+                      <node leaf="false" class="jason.asSyntax.parser.Token" methodName="newToken" methodSignature="(ILjava/lang/String;)Ljason/asSyntax/parser/Token;" time="7" count="8" selfTime="5" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="jason.asSyntax.parser.Token" methodName="&lt;init&gt;" methodSignature="(ILjava/lang/String;)V" time="2" count="8" selfTime="2" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getBeginColumn" methodSignature="()I" time="2" count="8" selfTime="2" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getEndLine" methodSignature="()I" time="1" count="8" selfTime="1" lineNumber="-1" percent="0.0"/>
+                    </node>
+                  </node>
+                </node>
+                <node leaf="false" class="jason.asSyntax.Pred" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="41" count="8" selfTime="8" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="jason.asSyntax.Structure" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="33" count="8" selfTime="7" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="jason.asSyntax.Structure" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;Ljava/lang/String;)V" time="26" count="8" selfTime="6" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="jason.asSyntax.Atom" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;Ljava/lang/String;)V" time="20" count="8" selfTime="12" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="jason.asSyntax.Literal" methodName="&lt;init&gt;" methodSignature="()V" time="8" count="8" selfTime="6" lineNumber="-1" percent="0.0">
+                          <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="8" selfTime="2" lineNumber="-1" percent="0.0"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node leaf="true" class="jason.asSyntax.SourceInfo" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;I)V" time="14" count="8" selfTime="14" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="jason.asSyntax.parser.as2j" methodName="jj_consume_token" methodSignature="(I)Ljason/asSyntax/parser/Token;" time="12" count="24" selfTime="12" lineNumber="-1" percent="0.0"/>
+                <node leaf="false" class="jason.asSyntax.Structure" methodName="setTerms" methodSignature="(Ljava/util/List;)Ljason/asSyntax/Literal;" time="10" count="8" selfTime="7" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="resetHashCodeCache" methodSignature="()V" time="3" count="8" selfTime="3" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="false" class="jason.asSyntax.LiteralImpl" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;ZLjason/asSyntax/Literal;)V" time="118" count="8" selfTime="9" lineNumber="-1" percent="0.1">
+                <node leaf="false" class="jason.asSyntax.Pred" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;Ljason/asSyntax/Literal;)V" time="109" count="8" selfTime="14" lineNumber="-1" percent="0.1">
+                  <node leaf="false" class="jason.asSyntax.Structure" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;Ljason/asSyntax/Literal;)V" time="94" count="8" selfTime="30" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="jason.asSyntax.Atom" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;Ljason/asSyntax/Literal;)V" time="24" count="8" selfTime="10" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="jason.asSyntax.Literal" methodName="&lt;init&gt;" methodSignature="()V" time="12" count="8" selfTime="10" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="8" selfTime="2" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="true" class="jason.asSyntax.Atom" methodName="getFunctor" methodSignature="()Ljava/lang/String;" time="2" count="8" selfTime="2" lineNumber="-1" percent="0.0"/>
+                    </node>
+                    <node leaf="false" class="jason.asSyntax.Structure" methodName="getTerm" methodSignature="(I)Ljason/asSyntax/Term;" time="18" count="9" selfTime="16" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="java.util.List" methodName="get" methodSignature="(I)Ljava/lang/Object;" time="2" count="9" selfTime="2" lineNumber="-1" percent="0.0"/>
+                    </node>
+                    <node leaf="false" class="jason.asSyntax.Structure" methodName="getArity" methodSignature="()I" time="8" count="8" selfTime="5" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="java.util.List" methodName="size" methodSignature="()I" time="3" count="8" selfTime="3" lineNumber="-1" percent="0.0"/>
+                    </node>
+                    <node leaf="false" class="jason.asSyntax.NumberTermImpl" methodName="clone" methodSignature="()Ljason/asSyntax/Term;" time="4" count="3" selfTime="2" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="jason.asSyntax.NumberTermImpl" methodName="clone" methodSignature="()Ljason/asSyntax/NumberTerm;" time="2" count="3" selfTime="2" lineNumber="-1" percent="0.0"/>
+                    </node>
+                    <node leaf="true" class="java.util.ArrayList" methodName="&lt;init&gt;" methodSignature="(I)V" time="4" count="8" selfTime="4" lineNumber="-1" percent="0.0"/>
+                    <node leaf="true" class="jason.asSyntax.Atom" methodName="clone" methodSignature="()Ljason/asSyntax/Term;" time="3" count="6" selfTime="3" lineNumber="-1" percent="0.0"/>
+                    <node leaf="true" class="java.util.List" methodName="add" methodSignature="(Ljava/lang/Object;)Z" time="3" count="9" selfTime="3" lineNumber="-1" percent="0.0"/>
+                  </node>
+                  <node leaf="true" class="jason.asSyntax.Pred" methodName="hasAnnot" methodSignature="()Z" time="1" count="8" selfTime="1" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="jj_2_4" methodSignature="(I)Z" time="112" count="8" selfTime="20" lineNumber="-1" percent="0.1">
+                <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="jj_3_4" methodSignature="()Z" time="87" count="8" selfTime="5" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="jj_scan_token" methodSignature="(I)Z" time="63" count="8" selfTime="6" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="getNextToken" methodSignature="()Ljason/asSyntax/parser/Token;" time="57" count="8" selfTime="9" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjFillToken" methodSignature="()Ljason/asSyntax/parser/Token;" time="31" count="8" selfTime="12" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="jason.asSyntax.parser.Token" methodName="newToken" methodSignature="(ILjava/lang/String;)Ljason/asSyntax/parser/Token;" time="11" count="8" selfTime="10" lineNumber="-1" percent="0.0">
+                          <node leaf="true" class="jason.asSyntax.parser.Token" methodName="&lt;init&gt;" methodSignature="(ILjava/lang/String;)V" time="1" count="8" selfTime="1" lineNumber="-1" percent="0.0"/>
+                        </node>
+                        <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getBeginColumn" methodSignature="()I" time="4" count="8" selfTime="4" lineNumber="-1" percent="0.0"/>
+                        <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getEndColumn" methodSignature="()I" time="2" count="8" selfTime="2" lineNumber="-1" percent="0.0"/>
+                        <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getBeginLine" methodSignature="()I" time="1" count="8" selfTime="1" lineNumber="-1" percent="0.0"/>
+                        <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="getEndLine" methodSignature="()I" time="1" count="8" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="BeginToken" methodSignature="()C" time="8" count="8" selfTime="5" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="readChar" methodSignature="()C" time="3" count="8" selfTime="3" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="false" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjMoveStringLiteralDfa0_0" methodSignature="()I" time="8" count="8" selfTime="7" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="jason.asSyntax.parser.as2jTokenManager" methodName="jjStopAtPos" methodSignature="(II)I" time="1" count="8" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="backup" methodSignature="(I)V" time="1" count="8" selfTime="1" lineNumber="-1" percent="0.0"/>
+                    </node>
+                  </node>
+                  <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="jj_3R_17" methodSignature="()Z" time="19" count="8" selfTime="7" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="jj_3R_35" methodSignature="()Z" time="12" count="8" selfTime="7" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="jason.asSyntax.parser.as2j" methodName="jj_scan_token" methodSignature="(I)Z" time="5" count="8" selfTime="5" lineNumber="-1" percent="0.0"/>
+                    </node>
+                  </node>
+                </node>
+                <node leaf="true" class="jason.asSyntax.parser.as2j" methodName="jj_save" methodSignature="(II)V" time="5" count="8" selfTime="5" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="false" class="jason.asSyntax.ASSyntax" methodName="isKeyword" methodSignature="(Ljason/asSyntax/Literal;)Z" time="102" count="8" selfTime="14" lineNumber="-1" percent="0.1">
+                <node leaf="false" class="jason.asSyntax.Literal" methodName="getPredicateIndicator" methodSignature="()Ljason/asSyntax/PredicateIndicator;" time="71" count="8" selfTime="17" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="jason.asSyntax.PredicateIndicator" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;Ljava/lang/String;I)V" time="42" count="8" selfTime="16" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="jason.asSyntax.PredicateIndicator" methodName="calcHash" methodSignature="()I" time="26" count="8" selfTime="13" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="jason.asSyntax.DefaultTerm" methodName="hashCode" methodSignature="()I" time="7" count="8" selfTime="6" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="java.lang.Integer" methodName="intValue" methodSignature="()I" time="1" count="8" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="true" class="java.lang.String" methodName="hashCode" methodSignature="()I" time="6" count="8" selfTime="6" lineNumber="-1" percent="0.0"/>
+                    </node>
+                  </node>
+                  <node leaf="false" class="jason.asSyntax.Structure" methodName="getArity" methodSignature="()I" time="8" count="8" selfTime="3" lineNumber="-1" percent="0.0">
+                    <node leaf="true" class="java.util.List" methodName="size" methodSignature="()I" time="5" count="8" selfTime="5" lineNumber="-1" percent="0.0"/>
+                  </node>
+                  <node leaf="true" class="jason.asSyntax.Atom" methodName="getFunctor" methodSignature="()Ljava/lang/String;" time="2" count="8" selfTime="2" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="jason.asSyntax.Atom" methodName="getNS" methodSignature="()Ljason/asSyntax/Atom;" time="2" count="8" selfTime="2" lineNumber="-1" percent="0.0"/>
+                </node>
+                <node leaf="false" class="java.util.Set" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="17" count="8" selfTime="14" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="jason.asSyntax.PredicateIndicator" methodName="hashCode" methodSignature="()I" time="3" count="8" selfTime="3" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="true" class="java.lang.String" methodName="indexOf" methodSignature="(Ljava/lang/String;)I" time="33" count="8" selfTime="33" lineNumber="-1" percent="0.0"/>
+              <node leaf="false" class="jason.asSyntax.directives.NameSpace" methodName="map" methodSignature="(Ljason/asSyntax/Atom;)Ljason/asSyntax/Atom;" time="16" count="8" selfTime="4" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="java.util.Map" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="12" count="8" selfTime="5" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="jason.asSyntax.DefaultTerm" methodName="hashCode" methodSignature="()I" time="7" count="8" selfTime="5" lineNumber="-1" percent="0.0">
+                    <node leaf="true" class="java.lang.Integer" methodName="intValue" methodSignature="()I" time="2" count="8" selfTime="2" lineNumber="-1" percent="0.0"/>
+                  </node>
+                </node>
+              </node>
+              <node leaf="true" class="java.lang.String" methodName="charAt" methodSignature="(I)C" time="5" count="8" selfTime="5" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="jason.asSyntax.Atom" methodName="getFunctor" methodSignature="()Ljava/lang/String;" time="2" count="16" selfTime="2" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="false" class="jason.asSyntax.parser.as2j" methodName="&lt;init&gt;" methodSignature="(Ljava/io/Reader;)V" time="930" count="8" selfTime="139" lineNumber="-1" percent="0.5">
+              <node leaf="false" class="jason.asSyntax.directives.DirectiveProcessor" methodName="getInstance" methodSignature="(Ljava/lang/String;)Ljason/asSyntax/directives/Directive;" time="374" count="8" selfTime="51" lineNumber="-1" percent="0.2">
+                <node leaf="true" class="java.lang.reflect.Constructor" methodName="newInstance" methodSignature="([Ljava/lang/Object;)Ljava/lang/Object;" time="164" count="8" selfTime="164" lineNumber="-1" percent="0.1"/>
+                <node leaf="true" class="java.lang.Class" methodName="getConstructor" methodSignature="([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;" time="116" count="8" selfTime="116" lineNumber="-1" percent="0.1"/>
+                <node leaf="true" class="java.util.Map" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="32" count="24" selfTime="32" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.util.Map" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="10" count="8" selfTime="10" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="jason.asSyntax.directives.NameSpace" methodName="isSingleton" methodSignature="()Z" time="1" count="8" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="false" class="jason.asSyntax.parser.SimpleCharStream" methodName="&lt;init&gt;" methodSignature="(Ljava/io/Reader;II)V" time="246" count="8" selfTime="11" lineNumber="-1" percent="0.1">
+                <node leaf="true" class="jason.asSyntax.parser.SimpleCharStream" methodName="&lt;init&gt;" methodSignature="(Ljava/io/Reader;III)V" time="235" count="8" selfTime="235" lineNumber="-1" percent="0.1"/>
+              </node>
+              <node leaf="false" class="jason.asSyntax.parser.as2j$LookaheadSuccess" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/parser/as2j$1;)V" time="78" count="8" selfTime="11" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="jason.asSyntax.parser.as2j$LookaheadSuccess" methodName="&lt;init&gt;" methodSignature="()V" time="67" count="8" selfTime="11" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.lang.Error" methodName="&lt;init&gt;" methodSignature="()V" time="56" count="8" selfTime="56" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="false" class="jason.asSyntax.directives.DirectiveProcessor" methodName="&lt;init&gt;" methodSignature="()V" time="33" count="8" selfTime="18" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.HashMap" methodName="&lt;init&gt;" methodSignature="()V" time="15" count="8" selfTime="15" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="true" class="jason.asSyntax.parser.as2jTokenManager" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/parser/SimpleCharStream;)V" time="31" count="8" selfTime="31" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="jason.asSyntax.parser.as2j$JJCalls" methodName="&lt;init&gt;" methodSignature="()V" time="13" count="32" selfTime="13" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="jason.asSyntax.parser.Token" methodName="&lt;init&gt;" methodSignature="()V" time="11" count="8" selfTime="11" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.util.ArrayList" methodName="&lt;init&gt;" methodSignature="()V" time="5" count="8" selfTime="5" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.io.StringReader" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="16" count="8" selfTime="16" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.io.PrintStream" methodName="println" methodSignature="(Ljava/lang/String;)V" time="3178" count="3" selfTime="3178" lineNumber="-1" percent="1.6"/>
+          <node leaf="false" class="NavMap" methodName="perceive" methodSignature="()Ljava/util/List;" time="314" count="1" selfTime="51" lineNumber="-1" percent="0.2">
+            <node leaf="false" class="NavMap" methodName="perceiveBattery" methodSignature="()Ljava/util/List;" time="55" count="1" selfTime="14" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.lang.Integer" methodName="toString" methodSignature="(I)Ljava/lang/String;" time="12" count="1" selfTime="12" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.Boolean" methodName="toString" methodSignature="(Z)Ljava/lang/String;" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.String" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="8" count="2" selfTime="8" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="5" count="6" selfTime="5" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="3" count="2" selfTime="3" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.util.List" methodName="add" methodSignature="(Ljava/lang/Object;)Z" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.util.ArrayList" methodName="&lt;init&gt;" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="false" class="jason.environment.grid.Location" methodName="toString" methodSignature="()Ljava/lang/String;" time="44" count="1" selfTime="15" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(I)Ljava/lang/StringBuilder;" time="13" count="2" selfTime="13" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="false" class="NavMap" methodName="perceiveObstacles" methodSignature="()Ljava/util/List;" time="41" count="1" selfTime="17" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="jason.environment.grid.GridWorldModel" methodName="isFreeOfObstacle" methodSignature="(II)Z" time="16" count="4" selfTime="7" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="jason.environment.grid.GridWorldModel" methodName="isFree" methodSignature="(III)Z" time="9" count="4" selfTime="7" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="jason.environment.grid.GridWorldModel" methodName="inGrid" methodSignature="(II)Z" time="2" count="4" selfTime="2" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="false" class="jason.environment.grid.GridWorldModel" methodName="getAgPos" methodSignature="(I)Ljason/environment/grid/Location;" time="5" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="jason.environment.grid.Location" methodName="clone" methodSignature="()Ljava/lang/Object;" time="3" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="jason.environment.grid.Location" methodName="&lt;init&gt;" methodSignature="(II)V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="true" class="java.util.List" methodName="add" methodSignature="(Ljava/lang/Object;)Z" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.util.ArrayList" methodName="&lt;init&gt;" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="false" class="NavMap" methodName="perceiveMap" methodSignature="()Ljava/util/List;" time="25" count="1" selfTime="15" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="jason.environment.grid.GridWorldModel" methodName="getAgPos" methodSignature="(I)Ljason/environment/grid/Location;" time="3" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="jason.environment.grid.Location" methodName="clone" methodSignature="()Ljava/lang/Object;" time="2" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="jason.environment.grid.Location" methodName="&lt;init&gt;" methodSignature="(II)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="true" class="jason.environment.grid.GridWorldModel" methodName="inGrid" methodSignature="(II)Z" time="3" count="4" selfTime="3" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.util.List" methodName="add" methodSignature="(Ljava/lang/Object;)Z" time="3" count="3" selfTime="3" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.util.ArrayList" methodName="&lt;init&gt;" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.util.List" methodName="addAll" methodSignature="(Ljava/util/Collection;)Z" time="24" count="4" selfTime="24" lineNumber="-1" percent="0.0"/>
+            <node leaf="false" class="NavMap" methodName="perceivePedestrians" methodSignature="()Ljava/util/List;" time="22" count="1" selfTime="9" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="jason.environment.grid.GridWorldModel" methodName="hasObject" methodSignature="(III)Z" time="8" count="4" selfTime="7" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="jason.environment.grid.GridWorldModel" methodName="inGrid" methodSignature="(II)Z" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="false" class="jason.environment.grid.GridWorldModel" methodName="getAgPos" methodSignature="(I)Ljason/environment/grid/Location;" time="4" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="jason.environment.grid.Location" methodName="clone" methodSignature="()Ljava/lang/Object;" time="3" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="jason.environment.grid.Location" methodName="&lt;init&gt;" methodSignature="(II)V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="true" class="java.util.ArrayList" methodName="&lt;init&gt;" methodSignature="()V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="12" count="3" selfTime="12" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.List" methodName="add" methodSignature="(Ljava/lang/Object;)Z" time="11" count="1" selfTime="11" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+            <node leaf="false" class="jason.environment.grid.GridWorldModel" methodName="getAgPos" methodSignature="(I)Ljason/environment/grid/Location;" time="6" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="jason.environment.grid.Location" methodName="clone" methodSignature="()Ljava/lang/Object;" time="5" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="jason.environment.grid.Location" methodName="&lt;init&gt;" methodSignature="(II)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+            </node>
+            <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.ArrayList" methodName="&lt;init&gt;" methodSignature="()V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="NavMap" methodName="updateBattery" methodSignature="()V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.lang.Object" methodName="toString" methodSignature="()Ljava/lang/String;" time="48" count="1" selfTime="48" lineNumber="-1" percent="0.0"/>
+          <node leaf="false" class="jason.environment.Environment" methodName="clearPercepts" methodSignature="()V" time="38" count="1" selfTime="8" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.util.List" methodName="isEmpty" methodSignature="()Z" time="14" count="1" selfTime="14" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.Set" methodName="clear" methodSignature="()V" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.List" methodName="clear" methodSignature="()V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.util.List" methodName="iterator" methodSignature="()Ljava/util/Iterator;" time="20" count="1" selfTime="20" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.util.Iterator" methodName="hasNext" methodSignature="()Z" time="10" count="9" selfTime="10" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.util.Iterator" methodName="next" methodSignature="()Ljava/lang/Object;" time="7" count="8" selfTime="7" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="NavMap" methodName="move" methodSignature="(Ljava/lang/String;)Z" time="1410" count="1" selfTime="40" lineNumber="-1" percent="0.7">
+          <node leaf="false" class="jason.environment.grid.GridWorldModel" methodName="setAgPos" methodSignature="(ILjason/environment/grid/Location;)V" time="1296" count="1" selfTime="15" lineNumber="-1" percent="0.7">
+            <node leaf="false" class="jason.environment.grid.GridWorldModel" methodName="add" methodSignature="(III)V" time="1006" count="1" selfTime="3" lineNumber="-1" percent="0.5">
+              <node leaf="false" class="jason.environment.grid.GridWorldView" methodName="update" methodSignature="(II)V" time="1003" count="1" selfTime="32" lineNumber="-1" percent="0.5">
+                <node leaf="false" class="jason.environment.grid.GridWorldView" methodName="draw" methodSignature="(Ljava/awt/Graphics;II)V" time="825" count="1" selfTime="97" lineNumber="-1" percent="0.4">
+                  <node leaf="false" class="jason.environment.grid.GridWorldView" methodName="drawAgent" methodSignature="(Ljava/awt/Graphics;IILjava/awt/Color;I)V" time="725" count="1" selfTime="30" lineNumber="-1" percent="0.4">
+                    <node leaf="true" class="java.awt.Graphics" methodName="fillOval" methodSignature="(IIII)V" time="426" count="1" selfTime="426" lineNumber="-1" percent="0.2"/>
+                    <node leaf="false" class="jason.environment.grid.GridWorldView" methodName="drawString" methodSignature="(Ljava/awt/Graphics;IILjava/awt/Font;Ljava/lang/String;)V" time="235" count="1" selfTime="9" lineNumber="-1" percent="0.1">
+                      <node leaf="true" class="java.awt.Graphics" methodName="drawString" methodSignature="(Ljava/lang/String;II)V" time="128" count="1" selfTime="128" lineNumber="-1" percent="0.1"/>
+                      <node leaf="true" class="java.awt.FontMetrics" methodName="stringWidth" methodSignature="(Ljava/lang/String;)I" time="40" count="1" selfTime="40" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.awt.Graphics" methodName="getFontMetrics" methodSignature="()Ljava/awt/FontMetrics;" time="39" count="1" selfTime="39" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.awt.FontMetrics" methodName="getHeight" methodSignature="()I" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.awt.Graphics" methodName="setFont" methodSignature="(Ljava/awt/Font;)V" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+                    </node>
+                    <node leaf="true" class="java.lang.String" methodName="valueOf" methodSignature="(I)Ljava/lang/String;" time="24" count="1" selfTime="24" lineNumber="-1" percent="0.0"/>
+                    <node leaf="true" class="java.awt.Graphics" methodName="setColor" methodSignature="(Ljava/awt/Color;)V" time="10" count="2" selfTime="10" lineNumber="-1" percent="0.0"/>
+                  </node>
+                  <node leaf="true" class="jason.environment.grid.GridWorldModel" methodName="getAgAtPos" methodSignature="(II)I" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+                </node>
+                <node leaf="false" class="jason.environment.grid.GridWorldView" methodName="drawEmpty" methodSignature="(Ljava/awt/Graphics;II)V" time="146" count="1" selfTime="7" lineNumber="-1" percent="0.1">
+                  <node leaf="true" class="java.awt.Graphics" methodName="drawRect" methodSignature="(IIII)V" time="116" count="1" selfTime="116" lineNumber="-1" percent="0.1"/>
+                  <node leaf="true" class="java.awt.Graphics" methodName="fillRect" methodSignature="(IIII)V" time="18" count="1" selfTime="18" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.awt.Graphics" methodName="setColor" methodSignature="(Ljava/awt/Color;)V" time="5" count="2" selfTime="5" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+            </node>
+            <node leaf="false" class="jason.environment.grid.GridWorldModel" methodName="remove" methodSignature="(III)V" time="271" count="1" selfTime="13" lineNumber="-1" percent="0.1">
+              <node leaf="false" class="jason.environment.grid.GridWorldView" methodName="update" methodSignature="(II)V" time="258" count="1" selfTime="96" lineNumber="-1" percent="0.1">
+                <node leaf="false" class="jason.environment.grid.GridWorldView" methodName="drawEmpty" methodSignature="(Ljava/awt/Graphics;II)V" time="149" count="1" selfTime="28" lineNumber="-1" percent="0.1">
+                  <node leaf="true" class="java.awt.Graphics" methodName="fillRect" methodSignature="(IIII)V" time="81" count="1" selfTime="81" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.awt.Graphics" methodName="drawRect" methodSignature="(IIII)V" time="23" count="1" selfTime="23" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="java.awt.Graphics" methodName="setColor" methodSignature="(Ljava/awt/Color;)V" time="17" count="2" selfTime="17" lineNumber="-1" percent="0.0"/>
+                </node>
+                <node leaf="true" class="jason.environment.grid.GridWorldView" methodName="draw" methodSignature="(Ljava/awt/Graphics;II)V" time="13" count="1" selfTime="13" lineNumber="-1" percent="0.0"/>
+              </node>
+            </node>
+            <node leaf="false" class="jason.environment.grid.GridWorldModel" methodName="getAgPos" methodSignature="(I)Ljason/environment/grid/Location;" time="4" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="jason.environment.grid.Location" methodName="clone" methodSignature="()Ljava/lang/Object;" time="3" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="jason.environment.grid.Location" methodName="&lt;init&gt;" methodSignature="(II)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+            </node>
+          </node>
+          <node leaf="false" class="jason.environment.grid.GridWorldModel" methodName="getAgPos" methodSignature="(I)Ljason/environment/grid/Location;" time="40" count="1" selfTime="18" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="jason.environment.grid.Location" methodName="clone" methodSignature="()Ljava/lang/Object;" time="22" count="1" selfTime="11" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="jason.environment.grid.Location" methodName="&lt;init&gt;" methodSignature="(II)V" time="11" count="1" selfTime="11" lineNumber="-1" percent="0.0"/>
+            </node>
+          </node>
+          <node leaf="false" class="jason.environment.grid.GridWorldModel" methodName="isFree" methodSignature="(Ljason/environment/grid/Location;)Z" time="18" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="jason.environment.grid.GridWorldModel" methodName="isFree" methodSignature="(II)Z" time="12" count="1" selfTime="7" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="jason.environment.grid.GridWorldModel" methodName="inGrid" methodSignature="(II)Z" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+            </node>
+          </node>
+          <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="10" count="2" selfTime="10" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="jason.environment.grid.Location" methodName="&lt;init&gt;" methodSignature="(II)V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/Object;)Ljava/lang/StringBuilder;" time="1376" count="1" selfTime="12" lineNumber="-1" percent="0.7">
+          <node leaf="false" class="jason.asSyntax.Structure" methodName="toString" methodSignature="()Ljava/lang/String;" time="1364" count="1" selfTime="1182" lineNumber="-1" percent="0.7">
+            <node leaf="false" class="java.util.stream.Stream" methodName="collect" methodSignature="(Ljava/util/stream/Collector;)Ljava/lang/Object;" time="78" count="1" selfTime="71" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="jason.asSyntax.Atom" methodName="toString" methodSignature="()Ljava/lang/String;" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.util.stream.Stream" methodName="map" methodSignature="(Ljava/util/function/Function;)Ljava/util/stream/Stream;" time="26" count="1" selfTime="26" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.List" methodName="stream" methodSignature="()Ljava/util/stream/Stream;" time="24" count="1" selfTime="24" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.stream.Collectors" methodName="joining" methodSignature="(Ljava/lang/CharSequence;)Ljava/util/stream/Collector;" time="21" count="1" selfTime="21" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="7" count="2" selfTime="7" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(C)Ljava/lang/StringBuilder;" time="6" count="2" selfTime="6" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+            <node leaf="false" class="jason.asSyntax.Structure" methodName="getArity" methodSignature="()I" time="4" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.util.List" methodName="size" methodSignature="()I" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="jason.asSyntax.Atom" methodName="getFunctor" methodSignature="()Ljava/lang/String;" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="jason.asSyntax.Atom" methodName="getNS" methodSignature="()Ljason/asSyntax/Atom;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="jason.asSyntax.LiteralImpl" methodName="negated" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="jason.asSyntax.Pred" methodName="hasAnnot" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="java.util.logging.Logger" methodName="info" methodSignature="(Ljava/lang/String;)V" time="434" count="1" selfTime="345" lineNumber="-1" percent="0.2">
+          <node leaf="false" class="jason.runtime.MASConsoleLogFormatter" methodName="format" methodSignature="(Ljava/util/logging/LogRecord;)Ljava/lang/String;" time="89" count="1" selfTime="23" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="jason.runtime.MASConsoleLogFormatter" methodName="getAgName" methodSignature="(Ljava/util/logging/LogRecord;)Ljava/lang/String;" time="20" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.lang.String" methodName="lastIndexOf" methodSignature="(I)I" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.util.logging.LogRecord" methodName="getLoggerName" methodSignature="()Ljava/lang/String;" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="11" count="1" selfTime="11" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="10" count="3" selfTime="10" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.logging.LogRecord" methodName="getThrown" methodSignature="()Ljava/lang/Throwable;" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(C)Ljava/lang/StringBuilder;" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.logging.LogRecord" methodName="getMessage" methodSignature="()Ljava/lang/String;" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="jason.asSyntax.LiteralImpl" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="211" count="2" selfTime="19" lineNumber="-1" percent="0.1">
+          <node leaf="false" class="jason.asSyntax.DefaultTerm" methodName="hashCode" methodSignature="()I" time="108" count="4" selfTime="12" lineNumber="-1" percent="0.1">
+            <node leaf="false" class="jason.asSyntax.LiteralImpl" methodName="calcHashCode" methodSignature="()I" time="85" count="1" selfTime="18" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="jason.asSyntax.Structure" methodName="calcHashCode" methodSignature="()I" time="66" count="1" selfTime="12" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="jason.asSyntax.Atom" methodName="calcHashCode" methodSignature="()I" time="35" count="1" selfTime="20" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.lang.String" methodName="hashCode" methodSignature="()I" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+                  <node leaf="false" class="jason.asSyntax.DefaultTerm" methodName="hashCode" methodSignature="()I" time="4" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                    <node leaf="true" class="java.lang.Integer" methodName="intValue" methodSignature="()I" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                  </node>
+                  <node leaf="true" class="jason.asSyntax.Atom" methodName="getFunctor" methodSignature="()Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                  <node leaf="true" class="jason.asSyntax.Atom" methodName="getNS" methodSignature="()Ljason/asSyntax/Atom;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                </node>
+                <node leaf="false" class="java.lang.Object" methodName="hashCode" methodSignature="()I" time="12" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="jason.asSyntax.DefaultTerm" methodName="hashCode" methodSignature="()I" time="8" count="1" selfTime="7" lineNumber="-1" percent="0.0">
+                    <node leaf="true" class="java.lang.Integer" methodName="intValue" methodSignature="()I" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                  </node>
+                </node>
+                <node leaf="false" class="jason.asSyntax.Structure" methodName="getTerm" methodSignature="(I)Ljason/asSyntax/Term;" time="4" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.util.List" methodName="get" methodSignature="(I)Ljava/lang/Object;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                </node>
+                <node leaf="false" class="jason.asSyntax.Structure" methodName="getArity" methodSignature="()I" time="3" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.util.List" methodName="size" methodSignature="()I" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="true" class="jason.asSyntax.LiteralImpl" methodName="negated" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.lang.Integer" methodName="valueOf" methodSignature="(I)Ljava/lang/Integer;" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.Integer" methodName="intValue" methodSignature="()I" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="jason.asSyntax.Pred" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="84" count="1" selfTime="12" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="jason.asSyntax.Structure" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="66" count="1" selfTime="24" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="jason.asSyntax.Atom" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="22" count="1" selfTime="11" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="jason.asSyntax.Atom" methodName="getFunctor" methodSignature="()Ljava/lang/String;" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="jason.asSyntax.Atom" methodName="getNS" methodSignature="()Ljason/asSyntax/Atom;" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="jason.asSyntax.Literal$DefaultNameSpace" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+              <node leaf="false" class="jason.asSyntax.Structure" methodName="getArity" methodSignature="()I" time="5" count="2" selfTime="3" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.List" methodName="size" methodSignature="()I" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="false" class="jason.asSyntax.Structure" methodName="getTerm" methodSignature="(I)Ljason/asSyntax/Term;" time="5" count="2" selfTime="3" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.List" methodName="get" methodSignature="(I)Ljava/lang/Object;" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="true" class="jason.asSyntax.Atom" methodName="getNS" methodSignature="()Ljason/asSyntax/Atom;" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="isVar" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="jason.asSyntax.Literal$DefaultNameSpace" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="false" class="jason.asSyntax.Pred" methodName="hasSubsetAnnot" methodSignature="(Ljason/asSyntax/Literal;)Z" time="6" count="2" selfTime="4" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="jason.asSyntax.Pred" methodName="hasAnnot" methodSignature="()Z" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+            </node>
+          </node>
+        </node>
+        <node leaf="false" class="jason.asSyntax.Structure" methodName="toString" methodSignature="()Ljava/lang/String;" time="138" count="1" selfTime="26" lineNumber="-1" percent="0.1">
+          <node leaf="false" class="java.util.stream.Stream" methodName="collect" methodSignature="(Ljava/util/stream/Collector;)Ljava/lang/Object;" time="60" count="1" selfTime="59" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="jason.asSyntax.Atom" methodName="toString" methodSignature="()Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.util.stream.Collectors" methodName="joining" methodSignature="(Ljava/lang/CharSequence;)Ljava/util/stream/Collector;" time="13" count="1" selfTime="13" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.util.List" methodName="stream" methodSignature="()Ljava/util/stream/Stream;" time="11" count="1" selfTime="11" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.util.stream.Stream" methodName="map" methodSignature="(Ljava/util/function/Function;)Ljava/util/stream/Stream;" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+          <node leaf="false" class="jason.asSyntax.Structure" methodName="getArity" methodSignature="()I" time="5" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.util.List" methodName="size" methodSignature="()I" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="3" count="2" selfTime="3" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="jason.asSyntax.Atom" methodName="getFunctor" methodSignature="()Ljava/lang/String;" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="jason.asSyntax.Atom" methodName="getNS" methodSignature="()Ljason/asSyntax/Atom;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="jason.asSyntax.LiteralImpl" methodName="negated" methodSignature="()Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(C)Ljava/lang/StringBuilder;" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="jason.asSyntax.Pred" methodName="hasAnnot" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.lang.String" methodName="contains" methodSignature="(Ljava/lang/CharSequence;)Z" time="27" count="2" selfTime="27" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.StringBuilder" methodName="append" methodSignature="(Ljava/lang/String;)Ljava/lang/StringBuilder;" time="17" count="2" selfTime="17" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.StringBuilder" methodName="&lt;init&gt;" methodSignature="()V" time="11" count="1" selfTime="11" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.StringBuilder" methodName="toString" methodSignature="()Ljava/lang/String;" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+      </node>
+    </node>
+    <node leaf="false" class="jason.stdlib.wait$WaitEvent" methodName="lambda$new$0" methodSignature="()V" time="2721" count="1" selfTime="17" lineNumber="-1" percent="1.4">
+      <node leaf="false" class="jason.stdlib.wait$WaitEvent" methodName="resume" methodSignature="(Z)V" time="2704" count="1" selfTime="2589" lineNumber="-1" percent="1.4">
+        <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="runAtBeginOfNextCycle" methodSignature="(Ljava/lang/Runnable;)V" time="59" count="1" selfTime="15" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.util.Queue" methodName="offer" methodSignature="(Ljava/lang/Object;)Z" time="20" count="1" selfTime="20" lineNumber="-1" percent="0.0"/>
+          <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="wake" methodSignature="()V" time="18" count="1" selfTime="10" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.lang.Object" methodName="notifyAll" methodSignature="()V" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="getAgArch" methodSignature="()Ljason/architecture/AgArch;" time="6" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="jason.architecture.AgArch" methodName="getFirstAgArch" methodSignature="()Ljason/architecture/AgArch;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="jason.asSemantics.Circumstance" methodName="removeEventListener" methodSignature="(Ljason/asSemantics/CircumstanceListener;)V" time="33" count="1" selfTime="7" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.util.Queue" methodName="remove" methodSignature="(Ljava/lang/Object;)Z" time="26" count="1" selfTime="26" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="wakeUpDeliberate" methodSignature="()V" time="21" count="1" selfTime="7" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="wake" methodSignature="()V" time="14" count="1" selfTime="12" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.lang.Object" methodName="notifyAll" methodSignature="()V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="getAgArch" methodSignature="()Ljason/architecture/AgArch;" time="2" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="jason.architecture.AgArch" methodName="getFirstAgArch" methodSignature="()Ljason/architecture/AgArch;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="run" methodSignature="()V" time="61990" count="1" selfTime="1429" lineNumber="-1" percent="31.3">
+    <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="reasoningCycle" methodSignature="()V" time="59848" count="3" selfTime="38347" lineNumber="-1" percent="30.2">
+      <node leaf="true" class="jason.architecture.AgArch" methodName="reasoningCycleStarting" methodSignature="()V" time="20137" count="2" selfTime="20137" lineNumber="-1" percent="10.2"/>
+      <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="act" methodSignature="()V" time="850" count="2" selfTime="8" lineNumber="-1" percent="0.4">
+        <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="act" methodSignature="()V" time="826" count="1" selfTime="22" lineNumber="-1" percent="0.4">
+          <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="act" methodSignature="(Ljason/asSemantics/ActionExec;)V" time="462" count="1" selfTime="6" lineNumber="-1" percent="0.2">
+            <node leaf="false" class="jason.infra.centralised.CentralisedEnvironment" methodName="act" methodSignature="(Ljava/lang/String;Ljason/asSemantics/ActionExec;)V" time="456" count="1" selfTime="7" lineNumber="-1" percent="0.2">
+              <node leaf="false" class="jason.environment.Environment" methodName="scheduleAction" methodSignature="(Ljava/lang/String;Ljason/asSyntax/Structure;Ljava/lang/Object;)V" time="448" count="1" selfTime="8" lineNumber="-1" percent="0.2">
+                <node leaf="true" class="java.util.concurrent.ExecutorService" methodName="execute" methodSignature="(Ljava/lang/Runnable;)V" time="432" count="1" selfTime="432" lineNumber="-1" percent="0.2"/>
+                <node leaf="true" class="jason.environment.Environment$1" methodName="&lt;init&gt;" methodSignature="(Ljason/environment/Environment;Ljava/lang/String;Ljason/asSyntax/Structure;Ljava/lang/Object;)V" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="true" class="jason.asSemantics.ActionExec" methodName="getActionTerm" methodSignature="()Ljason/asSyntax/Structure;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+          </node>
+          <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="applySemanticRuleAct" methodSignature="()V" time="304" count="4" selfTime="8" lineNumber="-1" percent="0.2">
+            <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="applyExecInt" methodSignature="()V" time="262" count="1" selfTime="48" lineNumber="-1" percent="0.1">
+              <node leaf="false" class="jason.asSyntax.LiteralImpl" methodName="capply" methodSignature="(Ljason/asSemantics/Unifier;)Ljason/asSyntax/Term;" time="197" count="1" selfTime="6" lineNumber="-1" percent="0.1">
+                <node leaf="false" class="jason.asSyntax.LiteralImpl" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Literal;Ljason/asSemantics/Unifier;)V" time="191" count="1" selfTime="5" lineNumber="-1" percent="0.1">
+                  <node leaf="false" class="jason.asSyntax.Pred" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Literal;Ljason/asSemantics/Unifier;)V" time="186" count="1" selfTime="9" lineNumber="-1" percent="0.1">
+                    <node leaf="false" class="jason.asSyntax.Structure" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Literal;Ljason/asSemantics/Unifier;)V" time="177" count="1" selfTime="27" lineNumber="-1" percent="0.1">
+                      <node leaf="false" class="jason.asSyntax.VarTerm" methodName="capply" methodSignature="(Ljason/asSemantics/Unifier;)Ljason/asSyntax/Term;" time="79" count="1" selfTime="28" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="jason.asSemantics.Unifier" methodName="get" methodSignature="(Ljason/asSyntax/VarTerm;)Ljason/asSyntax/Term;" time="41" count="1" selfTime="8" lineNumber="-1" percent="0.0">
+                          <node leaf="false" class="java.util.Map" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="33" count="1" selfTime="8" lineNumber="-1" percent="0.0">
+                            <node leaf="false" class="jason.asSyntax.VarTerm" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="16" count="1" selfTime="9" lineNumber="-1" percent="0.0">
+                              <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+                            </node>
+                            <node leaf="false" class="jason.asSyntax.DefaultTerm" methodName="hashCode" methodSignature="()I" time="9" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                              <node leaf="true" class="java.lang.Integer" methodName="intValue" methodSignature="()I" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+                            </node>
+                          </node>
+                        </node>
+                        <node leaf="true" class="jason.asSyntax.Pred" methodName="hasAnnot" methodSignature="()Z" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+                        <node leaf="false" class="jason.asSyntax.Atom" methodName="capply" methodSignature="(Ljason/asSemantics/Unifier;)Ljason/asSyntax/Term;" time="2" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                          <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="isVar" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                        </node>
+                        <node leaf="true" class="jason.asSyntax.LiteralImpl" methodName="negated" methodSignature="()Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                        <node leaf="true" class="jason.asSyntax.Atom" methodName="getNS" methodSignature="()Ljason/asSyntax/Atom;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                        <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="hasVar" methodSignature="(Ljason/asSyntax/VarTerm;Ljason/asSemantics/Unifier;)Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                        <node leaf="true" class="jason.asSyntax.Literal" methodName="isLiteral" methodSignature="()Z" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="false" class="jason.asSyntax.Atom" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Literal;Ljason/asSemantics/Unifier;)V" time="48" count="1" selfTime="17" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="jason.asSyntax.Atom" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Atom;Ljason/asSyntax/Literal;)V" time="27" count="1" selfTime="12" lineNumber="-1" percent="0.0">
+                          <node leaf="false" class="jason.asSyntax.Literal" methodName="&lt;init&gt;" methodSignature="()V" time="14" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+                            <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="&lt;init&gt;" methodSignature="()V" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+                          </node>
+                          <node leaf="true" class="jason.asSyntax.Atom" methodName="getFunctor" methodSignature="()Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                        </node>
+                        <node leaf="true" class="jason.asSyntax.Atom" methodName="getNS" methodSignature="()Ljason/asSyntax/Atom;" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+                        <node leaf="true" class="jason.asSyntax.Literal$DefaultNameSpace" methodName="capply" methodSignature="(Ljason/asSemantics/Unifier;)Ljason/asSyntax/Term;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="false" class="jason.asSyntax.Structure" methodName="getArity" methodSignature="()I" time="11" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="java.util.List" methodName="size" methodSignature="()I" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="false" class="jason.asSyntax.Structure" methodName="getTerm" methodSignature="(I)Ljason/asSyntax/Term;" time="6" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="java.util.List" methodName="get" methodSignature="(I)Ljava/lang/Object;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="true" class="java.util.ArrayList" methodName="&lt;init&gt;" methodSignature="(I)V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.util.List" methodName="add" methodSignature="(Ljava/lang/Object;)Z" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node leaf="true" class="jason.asSemantics.ActionExec" methodName="&lt;init&gt;" methodSignature="(Ljason/asSyntax/Literal;Ljason/asSemantics/Intention;)V" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="jason.asSemantics.Intention" methodName="peek" methodSignature="()Ljason/asSemantics/IntendedMeans;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="jason.asSyntax.DefaultTerm" methodName="isPlanBody" methodSignature="()Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="jason.asSemantics.IntendedMeans" methodName="getCurrentStep" methodSignature="()Ljason/asSyntax/PlanBody;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="jason.asSemantics.IntendedMeans" methodName="isFinished" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="jason.asSemantics.Intention" methodName="isFinished" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="jason.asSyntax.PlanBodyImpl" methodName="getBodyTerm" methodSignature="()Ljason/asSyntax/Term;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="jason.asSyntax.PlanBodyImpl" methodName="getBodyType" methodSignature="()Ljason/asSyntax/PlanBody$BodyType;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="applySelInt" methodSignature="()V" time="24" count="1" selfTime="13" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="jason.asSemantics.Agent" methodName="selectIntention" methodSignature="(Ljava/util/Queue;)Ljason/asSemantics/Intention;" time="9" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.Queue" methodName="poll" methodSignature="()Ljava/lang/Object;" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="true" class="jason.asSemantics.Circumstance" methodName="hasRunningIntention" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.util.logging.Logger" methodName="isLoggable" methodSignature="(Ljava/util/logging/Level;)Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="applyClrInt" methodSignature="(Ljason/asSemantics/Intention;)V" time="6" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="jason.asSemantics.IntendedMeans" methodName="isFinished" methodSignature="()Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+              <node leaf="false" class="jason.asSemantics.Intention" methodName="isFinished" methodSignature="()Z" time="1" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.Deque" methodName="isEmpty" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="false" class="jason.asSemantics.Intention" methodName="peek" methodSignature="()Ljason/asSemantics/IntendedMeans;" time="1" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.Deque" methodName="peek" methodSignature="()Ljava/lang/Object;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+            </node>
+            <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="applyProcAct" methodSignature="()V" time="4" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasFeedbackAction" methodSignature="()Z" time="1" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+            </node>
+          </node>
+          <node leaf="false" class="jason.asSemantics.Circumstance" methodName="addPendingAction" methodSignature="(Ljason/asSemantics/ActionExec;)V" time="35" count="1" selfTime="14" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.util.Map" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.lang.Integer" methodName="valueOf" methodSignature="(I)Ljava/lang/Integer;" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+            <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasListener" methodSignature="()Z" time="2" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="jason.asSemantics.ActionExec" methodName="getActionTerm" methodSignature="()Ljason/asSyntax/Structure;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="jason.asSemantics.ActionExec" methodName="getIntention" methodSignature="()Ljason/asSemantics/Intention;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="jason.asSemantics.Intention" methodName="getId" methodSignature="()I" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="jason.asSemantics.Intention" methodName="isAtomic" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="jason.asSemantics.Intention" methodName="setSuspendedReason" methodSignature="(Ljason/asSyntax/Term;)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="getAgArch" methodSignature="()Ljason/architecture/AgArch;" time="3" count="4" selfTime="2" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="jason.architecture.AgArch" methodName="getFirstAgArch" methodSignature="()Ljason/architecture/AgArch;" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="canSleepAct" methodSignature="()Z" time="14" count="2" selfTime="8" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="jason.asSemantics.Circumstance" methodName="hasRunningIntention" methodSignature="()Z" time="3" count="2" selfTime="3" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="jason.asSemantics.Circumstance" methodName="hasFeedbackAction" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="jason.asSemantics.TransitionSystem" methodName="getAgArch" methodSignature="()Ljason/architecture/AgArch;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="jason.infra.centralised.CentralisedAgArch" methodName="canSleep" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="jason.architecture.AgArch" methodName="getTS" methodSignature="()Ljason/asSemantics/TransitionSystem;" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="sense" methodSignature="()V" time="257" count="2" selfTime="21" lineNumber="-1" percent="0.1">
+        <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="sense" methodSignature="()V" time="216" count="2" selfTime="79" lineNumber="-1" percent="0.1">
+          <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="perceive" methodSignature="()Ljava/util/Collection;" time="52" count="2" selfTime="27" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="jason.environment.Environment" methodName="getPercepts" methodSignature="(Ljava/lang/String;)Ljava/util/Collection;" time="16" count="2" selfTime="3" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.util.Set" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="13" count="2" selfTime="13" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.util.logging.Logger" methodName="isLoggable" methodSignature="(Ljava/util/logging/Level;)Z" time="5" count="2" selfTime="5" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="jason.architecture.AgArch" methodName="perceive" methodSignature="()Ljava/util/Collection;" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="jason.infra.centralised.CentralisedAgArch" methodName="getAgName" methodSignature="()Ljava/lang/String;" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="applySemanticRuleSense" methodSignature="()V" time="39" count="2" selfTime="13" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="applyProcMsg" methodSignature="()V" time="26" count="2" selfTime="8" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasMsg" methodSignature="()Z" time="18" count="2" selfTime="3" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="15" count="2" selfTime="15" lineNumber="-1" percent="0.0"/>
+              </node>
+            </node>
+          </node>
+          <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="checkMail" methodSignature="()V" time="24" count="2" selfTime="12" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.util.Queue" methodName="poll" methodSignature="()Ljava/lang/Object;" time="11" count="2" selfTime="11" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="jason.architecture.AgArch" methodName="getTS" methodSignature="()Ljason/asSemantics/TransitionSystem;" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.util.logging.Logger" methodName="isLoggable" methodSignature="(Ljava/util/logging/Level;)Z" time="10" count="2" selfTime="10" lineNumber="-1" percent="0.0"/>
+          <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="getAgArch" methodSignature="()Ljason/architecture/AgArch;" time="9" count="4" selfTime="7" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="jason.architecture.AgArch" methodName="getFirstAgArch" methodSignature="()Ljason/architecture/AgArch;" time="2" count="4" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="jason.asSemantics.Agent" methodName="buf" methodSignature="(Ljava/util/Collection;)I" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="jason.runtime.Settings" methodName="nrcbp" methodSignature="()I" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="jason.architecture.AgArch" methodName="getTS" methodSignature="()Ljason/asSemantics/TransitionSystem;" time="20" count="2" selfTime="20" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="deliberate" methodSignature="()V" time="239" count="2" selfTime="16" lineNumber="-1" percent="0.1">
+        <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="deliberate" methodSignature="()V" time="196" count="1" selfTime="32" lineNumber="-1" percent="0.1">
+          <node leaf="false" class="jason.stdlib.wait$WaitEvent" methodName="lambda$resume$e8933e5e$1" methodSignature="(Z)V" time="130" count="1" selfTime="30" lineNumber="-1" percent="0.1">
+            <node leaf="false" class="jason.asSemantics.Circumstance" methodName="removePendingIntention" methodSignature="(Ljava/lang/String;)Ljason/asSemantics/Intention;" time="33" count="1" selfTime="12" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.util.Map" methodName="remove" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="17" count="1" selfTime="17" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="jason.asSemantics.Intention" methodName="isAtomic" methodSignature="()Z" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="false" class="jason.asSemantics.IntendedMeans" methodName="removeCurrentStep" methodSignature="()Ljason/asSyntax/Term;" time="24" count="1" selfTime="9" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="jason.asSemantics.IntendedMeans" methodName="isFinished" methodSignature="()Z" time="14" count="1" selfTime="11" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="jason.asSyntax.PlanBodyImpl" methodName="isEmptyBody" methodSignature="()Z" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="true" class="jason.asSyntax.PlanBodyImpl" methodName="getBodyNext" methodSignature="()Ljason/asSyntax/PlanBody;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="false" class="jason.asSemantics.Circumstance" methodName="resumeIntention" methodSignature="(Ljason/asSemantics/Intention;Ljason/asSyntax/Term;)V" time="19" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="jason.asSemantics.Circumstance" methodName="addRunningIntention" methodSignature="(Ljason/asSemantics/Intention;)V" time="16" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.Queue" methodName="offer" methodSignature="(Ljava/lang/Object;)Z" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="jason.asSemantics.Circumstance" methodName="hasListener" methodSignature="()Z" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasListener" methodSignature="()Z" time="1" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+            </node>
+            <node leaf="false" class="jason.asSemantics.Intention" methodName="isFinished" methodSignature="()Z" time="11" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.util.Deque" methodName="isEmpty" methodSignature="()Z" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasRunningIntention" methodSignature="(Ljason/asSemantics/Intention;)Z" time="6" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.util.Queue" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="false" class="jason.asSemantics.Intention" methodName="peek" methodSignature="()Ljason/asSemantics/IntendedMeans;" time="6" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.util.Deque" methodName="peek" methodSignature="()Ljava/lang/Object;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="jason.asSemantics.Intention" methodName="isSuspended" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.util.Queue" methodName="poll" methodSignature="()Ljava/lang/Object;" time="15" count="2" selfTime="15" lineNumber="-1" percent="0.0"/>
+          <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="applySemanticRuleDeliberate" methodSignature="()V" time="14" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="applySelEv" methodSignature="()V" time="11" count="1" selfTime="8" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="jason.asSemantics.Circumstance" methodName="hasAtomicIntention" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="jason.asSemantics.Circumstance" methodName="hasEvent" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="jason.asSemantics.Circumstance" methodName="removeAtomicEvent" methodSignature="()Ljason/asSemantics/Event;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+            </node>
+          </node>
+          <node leaf="true" class="jason.asSemantics.Circumstance" methodName="resetDeliberate" methodSignature="()V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="canSleepDeliberate" methodSignature="()Z" time="26" count="2" selfTime="10" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="canSleep" methodSignature="()Z" time="5" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="5" count="2" selfTime="5" lineNumber="-1" percent="0.0"/>
+          <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasEvent" methodSignature="()Z" time="4" count="2" selfTime="3" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="jason.asSemantics.Circumstance" methodName="getSelectedEvent" methodSignature="()Ljason/asSemantics/Event;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="jason.asSemantics.TransitionSystem" methodName="getAgArch" methodSignature="()Ljason/architecture/AgArch;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="jason.architecture.AgArch" methodName="getTS" methodSignature="()Ljason/asSemantics/TransitionSystem;" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="jason.architecture.AgArch" methodName="getFirstAgArch" methodSignature="()Ljason/architecture/AgArch;" time="18" count="4" selfTime="18" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasMsg" methodSignature="()Z" time="214" count="4" selfTime="140" lineNumber="-1" percent="0.1">
+      <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="74" count="4" selfTime="74" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="jason.environment.Environment" methodName="getPercepts" methodSignature="(Ljava/lang/String;)Ljava/util/Collection;" time="87" count="1" selfTime="22" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.util.Set" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="65" count="1" selfTime="65" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="jason.runtime.Settings" methodName="isSync" methodSignature="()Z" time="56" count="5" selfTime="56" lineNumber="-1" percent="0.0"/>
+    <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="canSleep" methodSignature="()Z" time="54" count="2" selfTime="35" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasEvent" methodSignature="()Z" time="5" count="2" selfTime="3" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="canSleep" methodSignature="()Z" time="4" count="2" selfTime="2" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="jason.infra.centralised.CentralisedAgArch" methodName="isRunning" methodSignature="()Z" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="jason.asSemantics.Circumstance" methodName="hasMsg" methodSignature="()Z" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+      <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasRunningIntention" methodSignature="()Z" time="2" count="2" selfTime="1" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="jason.asSemantics.Circumstance" methodName="isAtomicIntentionSuspended" methodSignature="()Z" time="2" count="2" selfTime="2" lineNumber="-1" percent="0.0"/>
+      <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="getAgArch" methodSignature="()Ljason/architecture/AgArch;" time="2" count="2" selfTime="1" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="jason.architecture.AgArch" methodName="getFirstAgArch" methodSignature="()Ljason/architecture/AgArch;" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="jason.asSemantics.Circumstance" methodName="hasFeedbackAction" methodSignature="()Z" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="sleep" methodSignature="()V" time="47" count="2" selfTime="24" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.lang.Object" methodName="wait" methodSignature="(J)V" time="22" count="2" selfTime="22" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="jason.architecture.AgArch" methodName="getTS" methodSignature="()Ljason/asSemantics/TransitionSystem;" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasEvent" methodSignature="()Z" time="44" count="4" selfTime="37" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="7" count="4" selfTime="7" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="jason.asSemantics.Circumstance" methodName="resetSense" methodSignature="()V" time="40" count="2" selfTime="40" lineNumber="-1" percent="0.0"/>
+    <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasRunningIntention" methodSignature="()Z" time="28" count="5" selfTime="22" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="6" count="5" selfTime="6" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="jason.architecture.AgArch" methodName="incCycleNumber" methodSignature="()V" time="25" count="3" selfTime="21" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="jason.architecture.AgArch" methodName="setCycleNumber" methodSignature="(I)V" time="4" count="3" selfTime="4" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasFeedbackAction" methodSignature="()Z" time="22" count="5" selfTime="16" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="6" count="5" selfTime="6" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="jason.asSemantics.TransitionSystem" methodName="getSettings" methodSignature="()Ljason/runtime/Settings;" time="19" count="3" selfTime="19" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="jason.infra.centralised.CentralisedEnvironment" methodName="getUserEnvironment" methodSignature="()Ljason/environment/Environment;" time="16" count="1" selfTime="16" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="jason.asSyntax.PlanLibrary" methodName="hasJagPlans" methodSignature="()Z" time="15" count="1" selfTime="15" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="jason.asSemantics.Agent" methodName="buf" methodSignature="(Ljava/util/Collection;)I" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="jason.runtime.Settings" methodName="nrcbp" methodSignature="()I" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="jason.architecture.AgArch" methodName="getFirstAgArch" methodSignature="()Ljason/architecture/AgArch;" time="7" count="3" selfTime="7" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="jason.asSemantics.Circumstance" methodName="getSelectedEvent" methodSignature="()Ljason/asSemantics/Event;" time="5" count="2" selfTime="5" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="jason.asSemantics.Circumstance" methodName="getSelectedIntention" methodSignature="()Ljason/asSemantics/Intention;" time="5" count="2" selfTime="5" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="jason.asSemantics.Circumstance" methodName="isAtomicIntentionSuspended" methodSignature="()Z" time="4" count="3" selfTime="4" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="jason.asSemantics.Circumstance" methodName="getAction" methodSignature="()Ljason/asSemantics/ActionExec;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="jason.asSemantics.Circumstance" methodName="resetAct" methodSignature="()V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="jason.asSemantics.Circumstance" methodName="removeAtomicIntention" methodSignature="()Ljason/asSemantics/Intention;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+  </node>
+</tree>

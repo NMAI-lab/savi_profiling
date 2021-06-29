@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tree type="Call Tree" threadSelection="All thread groups" threadStatus="Runnable" aggregationLevel="Methods">
+  <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="run" methodSignature="()V" time="3592" count="1" selfTime="1237" lineNumber="-1" percent="56.9">
+    <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="reasoningCycle" methodSignature="()V" time="1692" count="2" selfTime="1456" lineNumber="-1" percent="26.8">
+      <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="sense" methodSignature="()V" time="188" count="1" selfTime="15" lineNumber="-1" percent="3.0">
+        <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="sense" methodSignature="()V" time="169" count="1" selfTime="65" lineNumber="-1" percent="2.7">
+          <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="perceive" methodSignature="()Ljava/util/Collection;" time="37" count="1" selfTime="22" lineNumber="-1" percent="0.6">
+            <node leaf="false" class="jason.environment.Environment" methodName="getPercepts" methodSignature="(Ljava/lang/String;)Ljava/util/Collection;" time="8" count="1" selfTime="2" lineNumber="-1" percent="0.1">
+              <node leaf="true" class="java.util.Set" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.1"/>
+            </node>
+            <node leaf="true" class="java.util.logging.Logger" methodName="isLoggable" methodSignature="(Ljava/util/logging/Level;)Z" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.1"/>
+            <node leaf="true" class="jason.infra.centralised.CentralisedAgArch" methodName="getAgName" methodSignature="()Ljava/lang/String;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="jason.architecture.AgArch" methodName="perceive" methodSignature="()Ljava/util/Collection;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="applySemanticRuleSense" methodSignature="()V" time="33" count="1" selfTime="11" lineNumber="-1" percent="0.5">
+            <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="applyProcMsg" methodSignature="()V" time="22" count="1" selfTime="6" lineNumber="-1" percent="0.3">
+              <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasMsg" methodSignature="()Z" time="16" count="1" selfTime="2" lineNumber="-1" percent="0.3">
+                <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="14" count="1" selfTime="14" lineNumber="-1" percent="0.2"/>
+              </node>
+            </node>
+          </node>
+          <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="checkMail" methodSignature="()V" time="20" count="1" selfTime="10" lineNumber="-1" percent="0.3">
+            <node leaf="true" class="java.util.Queue" methodName="poll" methodSignature="()Ljava/lang/Object;" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.1"/>
+            <node leaf="true" class="jason.architecture.AgArch" methodName="getTS" methodSignature="()Ljason/asSemantics/TransitionSystem;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.util.logging.Logger" methodName="isLoggable" methodSignature="(Ljava/util/logging/Level;)Z" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.1"/>
+          <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="getAgArch" methodSignature="()Ljason/architecture/AgArch;" time="6" count="2" selfTime="5" lineNumber="-1" percent="0.1">
+            <node leaf="true" class="jason.architecture.AgArch" methodName="getFirstAgArch" methodSignature="()Ljason/architecture/AgArch;" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="jason.asSemantics.Agent" methodName="buf" methodSignature="(Ljava/util/Collection;)I" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="jason.architecture.AgArch" methodName="getTS" methodSignature="()Ljason/asSemantics/TransitionSystem;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.1"/>
+      </node>
+      <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="deliberate" methodSignature="()V" time="25" count="1" selfTime="2" lineNumber="-1" percent="0.4">
+        <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="canSleepDeliberate" methodSignature="()Z" time="22" count="1" selfTime="9" lineNumber="-1" percent="0.3">
+          <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="canSleep" methodSignature="()Z" time="5" count="1" selfTime="3" lineNumber="-1" percent="0.1">
+            <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.1"/>
+          <node leaf="true" class="jason.asSemantics.Circumstance" methodName="hasEvent" methodSignature="()Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="jason.asSemantics.Circumstance" methodName="getSelectedEvent" methodSignature="()Ljason/asSemantics/Event;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="jason.asSemantics.TransitionSystem" methodName="getAgArch" methodSignature="()Ljason/architecture/AgArch;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="jason.architecture.AgArch" methodName="getTS" methodSignature="()Ljason/asSemantics/TransitionSystem;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="act" methodSignature="()V" time="17" count="1" selfTime="4" lineNumber="-1" percent="0.3">
+        <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="canSleepAct" methodSignature="()Z" time="12" count="1" selfTime="8" lineNumber="-1" percent="0.2">
+          <node leaf="true" class="jason.asSemantics.Circumstance" methodName="hasFeedbackAction" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="jason.asSemantics.Circumstance" methodName="hasRunningIntention" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="jason.asSemantics.TransitionSystem" methodName="getAgArch" methodSignature="()Ljason/architecture/AgArch;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="jason.infra.centralised.CentralisedAgArch" methodName="canSleep" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="jason.architecture.AgArch" methodName="getTS" methodSignature="()Ljason/asSemantics/TransitionSystem;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="jason.architecture.AgArch" methodName="getFirstAgArch" methodSignature="()Ljason/architecture/AgArch;" time="4" count="2" selfTime="4" lineNumber="-1" percent="0.1"/>
+      <node leaf="true" class="jason.architecture.AgArch" methodName="reasoningCycleStarting" methodSignature="()V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasMsg" methodSignature="()Z" time="214" count="4" selfTime="140" lineNumber="-1" percent="3.4">
+      <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="74" count="4" selfTime="74" lineNumber="-1" percent="1.2"/>
+    </node>
+    <node leaf="false" class="jason.environment.Environment" methodName="getPercepts" methodSignature="(Ljava/lang/String;)Ljava/util/Collection;" time="87" count="1" selfTime="22" lineNumber="-1" percent="1.4">
+      <node leaf="true" class="java.util.Set" methodName="contains" methodSignature="(Ljava/lang/Object;)Z" time="65" count="1" selfTime="65" lineNumber="-1" percent="1.0"/>
+    </node>
+    <node leaf="true" class="jason.runtime.Settings" methodName="isSync" methodSignature="()Z" time="54" count="4" selfTime="54" lineNumber="-1" percent="0.9"/>
+    <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasEvent" methodSignature="()Z" time="44" count="4" selfTime="37" lineNumber="-1" percent="0.7">
+      <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="7" count="4" selfTime="7" lineNumber="-1" percent="0.1"/>
+    </node>
+    <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="canSleep" methodSignature="()Z" time="42" count="1" selfTime="33" lineNumber="-1" percent="0.7">
+      <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasEvent" methodSignature="()Z" time="3" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="canSleep" methodSignature="()Z" time="2" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="jason.infra.centralised.CentralisedAgArch" methodName="isRunning" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="jason.asSemantics.Circumstance" methodName="hasMsg" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasRunningIntention" methodSignature="()Z" time="1" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="jason.asSemantics.Circumstance" methodName="isAtomicIntentionSuspended" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="getAgArch" methodSignature="()Ljason/architecture/AgArch;" time="1" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="jason.architecture.AgArch" methodName="getFirstAgArch" methodSignature="()Ljason/architecture/AgArch;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+    </node>
+    <node leaf="true" class="jason.asSemantics.Circumstance" methodName="resetSense" methodSignature="()V" time="40" count="2" selfTime="40" lineNumber="-1" percent="0.6"/>
+    <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasRunningIntention" methodSignature="()Z" time="28" count="5" selfTime="22" lineNumber="-1" percent="0.4">
+      <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="6" count="5" selfTime="6" lineNumber="-1" percent="0.1"/>
+    </node>
+    <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="sleep" methodSignature="()V" time="26" count="1" selfTime="15" lineNumber="-1" percent="0.4">
+      <node leaf="true" class="java.lang.Object" methodName="wait" methodSignature="(J)V" time="11" count="1" selfTime="11" lineNumber="-1" percent="0.2"/>
+    </node>
+    <node leaf="false" class="jason.asSemantics.Circumstance" methodName="hasFeedbackAction" methodSignature="()Z" time="22" count="5" selfTime="16" lineNumber="-1" percent="0.3">
+      <node leaf="true" class="java.util.Queue" methodName="isEmpty" methodSignature="()Z" time="6" count="5" selfTime="6" lineNumber="-1" percent="0.1"/>
+    </node>
+    <node leaf="true" class="jason.infra.centralised.CentralisedEnvironment" methodName="getUserEnvironment" methodSignature="()Ljason/environment/Environment;" time="16" count="1" selfTime="16" lineNumber="-1" percent="0.3"/>
+    <node leaf="false" class="jason.architecture.AgArch" methodName="incCycleNumber" methodSignature="()V" time="15" count="2" selfTime="12" lineNumber="-1" percent="0.2">
+      <node leaf="true" class="jason.architecture.AgArch" methodName="setCycleNumber" methodSignature="(I)V" time="3" count="2" selfTime="3" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="jason.asSemantics.TransitionSystem" methodName="getSettings" methodSignature="()Ljason/runtime/Settings;" time="15" count="2" selfTime="15" lineNumber="-1" percent="0.2"/>
+    <node leaf="true" class="jason.asSyntax.PlanLibrary" methodName="hasJagPlans" methodSignature="()Z" time="15" count="1" selfTime="15" lineNumber="-1" percent="0.2"/>
+    <node leaf="true" class="jason.asSemantics.Agent" methodName="buf" methodSignature="(Ljava/util/Collection;)I" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.2"/>
+    <node leaf="true" class="jason.runtime.Settings" methodName="nrcbp" methodSignature="()I" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.2"/>
+    <node leaf="true" class="jason.architecture.AgArch" methodName="getFirstAgArch" methodSignature="()Ljason/architecture/AgArch;" time="6" count="2" selfTime="6" lineNumber="-1" percent="0.1"/>
+    <node leaf="true" class="jason.asSemantics.Circumstance" methodName="getSelectedEvent" methodSignature="()Ljason/asSemantics/Event;" time="5" count="2" selfTime="5" lineNumber="-1" percent="0.1"/>
+    <node leaf="true" class="jason.asSemantics.Circumstance" methodName="getSelectedIntention" methodSignature="()Ljason/asSemantics/Intention;" time="5" count="2" selfTime="5" lineNumber="-1" percent="0.1"/>
+    <node leaf="true" class="jason.asSemantics.Circumstance" methodName="isAtomicIntentionSuspended" methodSignature="()Z" time="4" count="3" selfTime="4" lineNumber="-1" percent="0.1"/>
+    <node leaf="true" class="jason.asSemantics.Circumstance" methodName="getAction" methodSignature="()Ljason/asSemantics/ActionExec;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="jason.asSemantics.Circumstance" methodName="resetAct" methodSignature="()V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+    <node leaf="true" class="jason.asSemantics.Circumstance" methodName="removeAtomicIntention" methodSignature="()Ljason/asSemantics/Intention;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="false" class="java.util.concurrent.ThreadPoolExecutor$Worker" methodName="run" methodSignature="()V" time="2721" count="1" selfTime="0" lineNumber="-1" percent="43.1">
+    <node leaf="false" class="jason.stdlib.wait$WaitEvent" methodName="lambda$new$0" methodSignature="()V" time="2721" count="1" selfTime="17" lineNumber="-1" percent="43.1">
+      <node leaf="false" class="jason.stdlib.wait$WaitEvent" methodName="resume" methodSignature="(Z)V" time="2704" count="1" selfTime="2589" lineNumber="-1" percent="42.8">
+        <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="runAtBeginOfNextCycle" methodSignature="(Ljava/lang/Runnable;)V" time="59" count="1" selfTime="15" lineNumber="-1" percent="0.9">
+          <node leaf="true" class="java.util.Queue" methodName="offer" methodSignature="(Ljava/lang/Object;)Z" time="20" count="1" selfTime="20" lineNumber="-1" percent="0.3"/>
+          <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="wake" methodSignature="()V" time="18" count="1" selfTime="10" lineNumber="-1" percent="0.3">
+            <node leaf="true" class="java.lang.Object" methodName="notifyAll" methodSignature="()V" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.1"/>
+          </node>
+          <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="getAgArch" methodSignature="()Ljason/architecture/AgArch;" time="6" count="1" selfTime="5" lineNumber="-1" percent="0.1">
+            <node leaf="true" class="jason.architecture.AgArch" methodName="getFirstAgArch" methodSignature="()Ljason/architecture/AgArch;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="jason.asSemantics.Circumstance" methodName="removeEventListener" methodSignature="(Ljason/asSemantics/CircumstanceListener;)V" time="33" count="1" selfTime="7" lineNumber="-1" percent="0.5">
+          <node leaf="true" class="java.util.Queue" methodName="remove" methodSignature="(Ljava/lang/Object;)Z" time="26" count="1" selfTime="26" lineNumber="-1" percent="0.4"/>
+        </node>
+        <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="wakeUpDeliberate" methodSignature="()V" time="21" count="1" selfTime="7" lineNumber="-1" percent="0.3">
+          <node leaf="false" class="jason.infra.centralised.CentralisedAgArch" methodName="wake" methodSignature="()V" time="14" count="1" selfTime="12" lineNumber="-1" percent="0.2">
+            <node leaf="true" class="java.lang.Object" methodName="notifyAll" methodSignature="()V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="jason.asSemantics.TransitionSystem" methodName="getAgArch" methodSignature="()Ljason/architecture/AgArch;" time="2" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="jason.architecture.AgArch" methodName="getFirstAgArch" methodSignature="()Ljason/architecture/AgArch;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</tree>
