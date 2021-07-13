@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config version="12.0">
+  <sessions>
+    <session id="131" name="Jason_Profiling" jvmConfigurationId="104" methodCallRecordingType="instrumentation" recordArrayAlloc="false" compilationTarget="1.8" recordingProfileId="10">
+      <filters>
+        <group type="exclusive" name="Default excludes" template="defaultExcludes" />
+      </filters>
+      <triggers logTarget="stdout" logFile="">
+        <jvmStart>
+          <actions>
+            <startRecording>
+              <cpu enabled="true" />
+            </startRecording>
+          </actions>
+        </jvmStart>
+        <methodInvocation>
+          <actions>
+            <saveSnapshot file="Snapshot" number="true" />
+          </actions>
+          <methods>
+            <method className="jason.infra.centralised.CentralisedAgArch" methodName="deliberate" signature="()V" />
+          </methods>
+        </methodInvocation>
+      </triggers>
+    </session>
+  </sessions>
+</config>
