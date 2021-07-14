@@ -130,7 +130,7 @@ def analyze():
     directoryList = ["Y:\School\PhD\ProfileResults\gridSynched\synchGridDeliberate\profiles"]
     
     for i in range(len(directoryList)):
-        print("Convertig " + str(i) + " of " + str(directoryList))
+        print("Convertig " + str(i) + " of " + str(len(directoryList)))
         profileXmlToCsv(directoryList[i])
     print("Done")
     
