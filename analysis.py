@@ -126,9 +126,7 @@ def analyze():
                      "Y:/School/PhD/ProfileResults/mail/reasoningCycle/profiles",
                      "Y:/School/PhD/ProfileResults/rosGridRpi/deliberate/profiles",
                      "Y:/School/PhD/ProfileResults/rosGridRpi/reasoningCycle/profiles"]
-    
-    directoryList = ["Y:\School\PhD\ProfileResults\gridSynched\synchGridDeliberate\profiles"]
-    
+  
     for i in range(len(directoryList)):
         print("Convertig " + str(i) + " of " + str(len(directoryList)))
         profileXmlToCsv(directoryList[i])
