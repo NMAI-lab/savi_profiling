@@ -1,0 +1,20 @@
+Topic,Data,TimeStamp
+outbox,"<mid1,0,tell,BROADCAST,mailUpdate(receivedMission,a,b)>",2021-07-13 15:26:00.774726
+outbox,"<mid2,0,tell,BROADCAST,collectMail(goToSender,a)>",2021-07-13 15:26:02.435718
+outbox,"<mid3,0,tell,BROADCAST,navigate(gettingRoute(a),0)>",2021-07-13 15:26:04.101128
+outbox,"<mid4,0,tell,BROADCAST,navigate(current(d),0)>",2021-07-13 15:26:04.928645
+outbox,"<mid5,0,tell,BROADCAST,navigate(route([op(initial,d),op(drive,b),op(drive,a)],2),a,0)>",2021-07-13 15:26:07.350148
+outbox,"<mid6,0,tell,BROADCAST,waypoint(b)>",2021-07-13 15:26:10.367930
+outbox,"<mid7,0,tell,BROADCAST,faceNext(b)>",2021-07-13 15:26:12.441311
+outbox,"<mid8,0,tell,BROADCAST,drive(forwad)>",2021-07-13 15:26:19.550801
+outbox,"<mid9,0,tell,BROADCAST,move(0.5,0,5)>",2021-07-13 15:26:21.534277
+outbox,"<mid10,0,tell,BROADCAST,move(0.5,0,4)>",2021-07-13 15:26:24.739666
+outbox,"<mid11,0,tell,BROADCAST,move(0.5,0,3)>",2021-07-13 15:26:27.869814
+outbox,"<mid12,0,tell,BROADCAST,move(0.5,0,2)>",2021-07-13 15:26:30.975444
+outbox,"<mid13,0,tell,BROADCAST,move(0.5,0,1)>",2021-07-13 15:26:34.857460
+outbox,"<mid14,0,tell,BROADCAST,waypoint(atLocation(b))>",2021-07-13 15:26:42.333085
+outbox,"<mid15,0,tell,BROADCAST,waypoint(a)>",2021-07-13 15:26:46.751347
+outbox,"<mid16,0,tell,BROADCAST,faceNext(a)>",2021-07-13 15:26:48.793875
+outbox,"<mid17,0,tell,BROADCAST,turn(left)>",2021-07-13 15:26:51.345697
+outbox,"<mid18,0,tell,BROADCAST,move(0,4.1,2)>",2021-07-13 15:26:53.366012
+outbox,"<mid19,0,tell,BROADCAST,move(0,4.1,1)>",2021-07-13 15:26:56.440017

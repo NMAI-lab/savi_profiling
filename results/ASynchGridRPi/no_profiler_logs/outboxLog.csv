@@ -1,0 +1,21 @@
+Topic,Data,TimeStamp
+outbox,"<mid1,0,tell,BROADCAST,navigate(gettingRoute(d))>",2021-07-12 11:39:49.462514
+outbox,"<mid2,0,tell,BROADCAST,navigate(current(a))>",2021-07-12 11:39:49.957132
+outbox,"<mid3,0,tell,BROADCAST,navigate(route([op(initial,a),op(right,b),op(right,c),op(right,d)],3),d)>",2021-07-12 11:39:50.958327
+outbox,"<mid4,0,tell,BROADCAST,waypoint(default,a)>",2021-07-12 11:39:52.460187
+outbox,"<mid5,0,tell,BROADCAST,waypoint(move(right))>",2021-07-12 11:39:53.963559
+outbox,"<mid6,0,tell,BROADCAST,navigate(gettingRoute(d))>",2021-07-12 11:39:57.955096
+outbox,"<mid7,0,tell,BROADCAST,navigate(current(b))>",2021-07-12 11:39:58.456919
+outbox,"<mid8,0,tell,BROADCAST,navigate(route([op(initial,b),op(left,a),op(up,e),op(up,i),op(up,m),op(right,n),op(right,o),op(down,k),op(right,l),op(down,h),op(down,d)],10),d)>",2021-07-12 11:39:59.460068
+outbox,"<mid9,0,tell,BROADCAST,waypoint(default,b)>",2021-07-12 11:40:00.959027
+outbox,"<mid10,0,tell,BROADCAST,waypoint(move(left))>",2021-07-12 11:40:02.459242
+outbox,"<mid11,0,tell,BROADCAST,waypoint(move(up))>",2021-07-12 11:40:04.457314
+outbox,"<mid12,0,tell,BROADCAST,waypoint(move(up))>",2021-07-12 11:40:06.464456
+outbox,"<mid13,0,tell,BROADCAST,waypoint(move(up))>",2021-07-12 11:40:08.455191
+outbox,"<mid14,0,tell,BROADCAST,waypoint(move(right))>",2021-07-12 11:40:10.458230
+outbox,"<mid15,0,tell,BROADCAST,waypoint(move(right))>",2021-07-12 11:40:12.450711
+outbox,"<mid16,0,tell,BROADCAST,waypoint(move(down))>",2021-07-12 11:40:14.457315
+outbox,"<mid17,0,tell,BROADCAST,waypoint(move(right))>",2021-07-12 11:40:16.458979
+outbox,"<mid18,0,tell,BROADCAST,waypoint(move(down))>",2021-07-12 11:40:18.455941
+outbox,"<mid19,0,tell,BROADCAST,waypoint(move(down))>",2021-07-12 11:40:20.459790
+outbox,"<mid20,0,tell,BROADCAST,navigate(arrived(d))>",2021-07-12 11:40:22.455267
