@@ -1,0 +1,25 @@
+Topic,Data,TimeStamp
+outbox,"<mid1,0,tell,BROADCAST,navigate(gettingRoute(d))>",2021-07-12 11:26:29.935114
+outbox,"<mid2,0,tell,BROADCAST,navigate(current(a))>",2021-07-12 11:26:30.673901
+outbox,"<mid3,0,tell,BROADCAST,navigate(route([op(initial,a),op(right,b),op(right,c),op(right,d)],3),d)>",2021-07-12 11:26:34.289973
+outbox,"<mid4,0,tell,BROADCAST,waypoint(default,a)>",2021-07-12 11:26:37.311825
+outbox,"<mid5,0,tell,BROADCAST,waypoint(move(right))>",2021-07-12 11:26:40.704158
+outbox,"<mid6,0,tell,BROADCAST,navigate(gettingRoute(d))>",2021-07-12 11:26:49.825327
+outbox,"<mid7,0,tell,BROADCAST,navigate(current(b))>",2021-07-12 11:26:50.789490
+outbox,"<mid8,0,tell,BROADCAST,navigate(route([op(initial,b),op(left,a),op(up,e),op(up,i),op(up,m),op(right,n),op(right,o),op(down,k),op(right,l),op(down,h),op(down,d)],10),d)>",2021-07-12 11:27:06.190414
+outbox,"<mid9,0,tell,BROADCAST,waypoint(default,b)>",2021-07-12 11:27:12.331455
+outbox,"<mid10,0,tell,BROADCAST,waypoint(move(left))>",2021-07-12 11:27:18.180329
+outbox,"<mid11,0,tell,BROADCAST,waypoint(move(up))>",2021-07-12 11:27:26.087755
+outbox,"<mid12,0,tell,BROADCAST,waypoint(move(up))>",2021-07-12 11:27:34.309380
+outbox,"<mid13,0,tell,BROADCAST,waypoint(move(up))>",2021-07-12 11:27:42.656516
+outbox,"<mid14,0,tell,BROADCAST,navigate(gettingRoute(d))>",2021-07-12 11:27:59.014906
+outbox,"<mid15,0,tell,BROADCAST,navigate(current(m))>",2021-07-12 11:28:01.075963
+outbox,"<mid16,0,tell,BROADCAST,navigate(route([op(initial,m),op(right,n),op(right,o),op(down,k),op(right,l),op(down,h),op(down,d)],6),d)>",2021-07-12 11:28:15.819109
+outbox,"<mid17,0,tell,BROADCAST,waypoint(default,m)>",2021-07-12 11:28:22.370334
+outbox,"<mid18,0,tell,BROADCAST,waypoint(move(right))>",2021-07-12 11:28:28.890874
+outbox,"<mid19,0,tell,BROADCAST,waypoint(move(right))>",2021-07-12 11:28:37.462402
+outbox,"<mid20,0,tell,BROADCAST,waypoint(move(down))>",2021-07-12 11:28:46.035098
+outbox,"<mid21,0,tell,BROADCAST,waypoint(move(right))>",2021-07-12 11:28:55.027801
+outbox,"<mid22,0,tell,BROADCAST,waypoint(move(down))>",2021-07-12 11:29:03.850498
+outbox,"<mid23,0,tell,BROADCAST,waypoint(move(down))>",2021-07-12 11:29:12.414393
+outbox,"<mid24,0,tell,BROADCAST,navigate(arrived(d))>",2021-07-12 11:29:21.090480
